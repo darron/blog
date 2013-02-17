@@ -1,0 +1,44 @@
+---
+layout: page
+title: "pgp key"
+date: 2013-02-17 01:12
+comments: true
+sharing: true
+footer: true
+---
+
+My new key can be downloaded [here](/pgp-key.txt).
+
+Or just copy and paste.
+
+<pre><code>-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v1.4.13 (Darwin)
+
+mQENBFEgjNIBCAC5F3BLtFvjkavl8khrQZzntjVr+bfPOy7I/kK8nLSdomgAp1Z7
+GKvQKwvbPY8E/X6/+ODMQzp6I7CaOKGfs4endlKwB6tgp9bnaL9wPQ51BNw5dFFL
+2lnorqSSOPBjfEjuqR0IE8ptrjoNABihGOD/K/HAqCKCAZRxbfueZ+NVf7e24zvl
+OiV+it+0BI3DRgG5kjLuX9yuZDRwS30H7eNlD2YUfiSWTzV/kdFYiIcmZQyTA+7U
+U4iWWJyEOZdmrjGzzJILZUnBseDOZqUXQFoWtq+AIqGKKL7Xc/PWhpiIX7+JpXWq
+WVRNhmHhXwhR5IQVqkfTqPtuBoaV6eX3/PMhABEBAAG0IURhcnJvbiBGcm9lc2Ug
+PGRhcnJvbkBmcm9lc2Uub3JnPokBOAQTAQIAIgUCUSCM0gIbAwYLCQgHAwIGFQgC
+CQoLBBYCAwECHgECF4AACgkQhNSmhohdx3I20ggArV3t8GL8c2Abe3bi+GjPk5b8
+yzyF6huKz947Q8mlv0fkkGHTNsb6kv5n/Tu7mMAmNoUgFugzKBMuhTrS5/lc47Ii
+Mj/5vzoqIOksOUFtNCpzuH1y9qkTYbEpJnQ5bzY2mqf6awZbzmTXDBTQ+kUfP/HW
+ALqPlftnfm4RHLsHXca89Fv6tQPg8PdnwmixjA6fAIh+DL1y3HXhU5JCg8ZCnwaK
+yQXSQqg7B/tIfgXAoHObrgYWx+RWMuJGP57CXrAASCjsUAyRCbvZhN32hk7wASf+
+/JafUXalduAaAj2eYhco/mxto4O3bpv+mrQDDrHaH1jL/z8gRfMZ1aikOGgc27kB
+DQRRIIzSAQgAzq0zMF3DIjV3BiDhwBk1pT01GmyNwLmL5EnKsWOLE/v9Xo1n5HPJ
+WaBHi4jIMScvxYyDb/AAsMRq96j9wyjZkPyOu3lFQD1YHP1BjZudejFb6jjmZYEy
+Oys1j6+fBqFc9YCNM+MIdrOKaHDUvP4RwZYlzXnq5aJAYxF1EC2Rfhjw7sVdSadN
+0OO65wlqzkB22Sv3C2Na497znZsOKBAHIFc6fTHzVc+dAxkQTakSfhcllrffVnbH
+XIRdfyCMzwwh2NjNp1SyFerBda/Shuf1fkLDVvXWsQpX/dT4lBsbceGSHHhCMa4L
+tgSaE+LosKW80XPTJylE1eBQMtZ61l/dwQARAQABiQEfBBgBAgAJBQJRIIzSAhsM
+AAoJEITUpoaIXcdyofcH/1Sc+fx+ku+Iz4+I2jWhnOUl6qRvJWG2au/ix/yuyEyX
+tJJo2AvJF1yEi2VRRM4z+oaE0HvXy0J/yQE4/7qcJJ8hqqwuNYPtZJMT2D+64iLF
+y5H5vJn1Yr+37NMRnzTgGHTm6pGqMFIE3t1pVwf3aXo5sX6BiBgexTumgVgRVVxY
+3LSMDm1vY2po470y8ixAd02YBuHnUXtrhAc52yelGvEdJ68c97nAKrzkGHjRCaOF
+oVLZ8gpW3jbxpr+LZ6kqotqgcmqjlMcsrWBBiYwVh3loMwgc4GRseliyzpOUuhwN
+DHr49anhzYc9z+6Xm5Tr3Fft1lEwEKjALOyKuW7gmwA=
+=sD+b
+-----END PGP PUBLIC KEY BLOCK-----
+</code></pre>
