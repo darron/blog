@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Blog]]></title>
-  <link href="http://darron-blog.herokuapp.com//atom.xml" rel="self"/>
-  <link href="http://darron-blog.herokuapp.com//"/>
-  <updated>2013-02-16T23:21:05-07:00</updated>
-  <id>http://darron-blog.herokuapp.com//</id>
+  <title><![CDATA[Darron Froese's Blog]]></title>
+  <link href="http://blog.froese.org//atom.xml" rel="self"/>
+  <link href="http://blog.froese.org//"/>
+  <updated>2013-02-16T23:33:46-07:00</updated>
+  <id>http://blog.froese.org//</id>
   <author>
     <name><![CDATA[Darron Froese]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[What I want in a Canadian Virtual Private Server provider.]]></title>
-    <link href="http://darron-blog.herokuapp.com//2013/02/06/what-i-want-in-a-canadian-virtual-private-server-provider-/"/>
+    <link href="http://blog.froese.org//2013/02/06/what-i-want-in-a-canadian-virtual-private-server-provider-/"/>
     <updated>2013-02-06T00:00:00-07:00</updated>
-    <id>http://darron-blog.herokuapp.com//2013/02/06/what-i-want-in-a-canadian-virtual-private-server-provider-</id>
+    <id>http://blog.froese.org//2013/02/06/what-i-want-in-a-canadian-virtual-private-server-provider-</id>
     <content type="html"><![CDATA[<p>I&#8217;m trying to find a decent Canadian VPS provider that I can use for some of my customers.</p>
 <p>Yes - I know that having your data in Canada is not really any safer than having it hosted in the USA, but I can&#8217;t fully convince some of my client&#8217;s legal departments.</p>
 <p>I need:</p>
@@ -40,9 +40,9 @@
   
   <entry>
     <title type="html"><![CDATA[More falsehoods programmers believe about time; "wisdom of the crowd" edition: @NoahSussman: Infinite Undo]]></title>
-    <link href="http://darron-blog.herokuapp.com//2013/01/03/more-falsehoods-programmers-believe-about-time-wisdom-of-the-crowd-edition-noahsussman-infinite-undo/"/>
+    <link href="http://blog.froese.org//2013/01/03/more-falsehoods-programmers-believe-about-time-wisdom-of-the-crowd-edition-noahsussman-infinite-undo/"/>
     <updated>2013-01-03T00:00:00-07:00</updated>
-    <id>http://darron-blog.herokuapp.com//2013/01/03/more-falsehoods-programmers-believe-about-time-wisdom-of-the-crowd-edition-noahsussman-infinite-undo</id>
+    <id>http://blog.froese.org//2013/01/03/more-falsehoods-programmers-believe-about-time-wisdom-of-the-crowd-edition-noahsussman-infinite-undo</id>
     <content type="html"><![CDATA[<div class="posterous_bookmarklet_entry">
       <blockquote class="posterous_long_quote"><strong>A great many of the false assumptions listed were my own.</strong>  Especially “time stamps are always in seconds since epoch” and “the duration of a system clock minute is always pretty close to the duration of a wall clock minute.”  Whoa did I ever live to regret my ignorance in those two cases!  But hey, apparently I’m not the only one who has run into (or inadvertently caused) such issues.  A lot of people responded and shared similar experiences.</blockquote>
 
@@ -53,9 +53,9 @@
   
   <entry>
     <title type="html"><![CDATA[A little Chef advice is needed - how to move forward. #opschef]]></title>
-    <link href="http://darron-blog.herokuapp.com//2012/12/29/a-little-chef-advice-is-needed-how-to-move-forward-opschef/"/>
+    <link href="http://blog.froese.org//2012/12/29/a-little-chef-advice-is-needed-how-to-move-forward-opschef/"/>
     <updated>2012-12-29T00:00:00-07:00</updated>
-    <id>http://darron-blog.herokuapp.com//2012/12/29/a-little-chef-advice-is-needed-how-to-move-forward-opschef</id>
+    <id>http://blog.froese.org//2012/12/29/a-little-chef-advice-is-needed-how-to-move-forward-opschef</id>
     <content type="html"><![CDATA[<p>Chef workflow question&#8230;</p>
 <p>Looking for a little advice here on how to move forward with some Chef built infrastructure.</p>
 <p>I started going through my chef repo this Christmas - and some ugly little platform version hacks started appearing - so I got to thinking about how better to structure things - and here I am.</p>
@@ -85,9 +85,9 @@
   
   <entry>
     <title type="html"><![CDATA[Milk prices may double in the New Year - Why does this still happen?]]></title>
-    <link href="http://darron-blog.herokuapp.com//2012/12/22/milk-prices-may-double-in-the-new-year-why-does-this-still-happen-/"/>
+    <link href="http://blog.froese.org//2012/12/22/milk-prices-may-double-in-the-new-year-why-does-this-still-happen-/"/>
     <updated>2012-12-22T00:00:00-07:00</updated>
-    <id>http://darron-blog.herokuapp.com//2012/12/22/milk-prices-may-double-in-the-new-year-why-does-this-still-happen-</id>
+    <id>http://blog.froese.org//2012/12/22/milk-prices-may-double-in-the-new-year-why-does-this-still-happen-</id>
     <content type="html"><![CDATA[<div class="posterous_bookmarklet_entry">
       <blockquote class="posterous_long_quote"><p>It works like this: In order to keep <a href="http://money.cnn.com/2012/11/27/news/economy/farming/index.html?iid=EL">dairy farmers</a> in businesses, the government agrees to buy milk and other products if the price gets too low. The current <a href="http://money.cnn.com/2012/12/04/news/economy/farm-subsidies/index.html?iid=EL">agriculture bill</a> has a formula that  means the government steps in if the price of milk were to drop by roughly half from its current national average of about $3.65 a gallon.
                        
@@ -106,9 +106,9 @@
   
   <entry>
     <title type="html"><![CDATA[It's cool when Clinton proposes it.]]></title>
-    <link href="http://darron-blog.herokuapp.com//2012/12/21/it-s-cool-when-clinton-proposes-it-/"/>
+    <link href="http://blog.froese.org//2012/12/21/it-s-cool-when-clinton-proposes-it-/"/>
     <updated>2012-12-21T00:00:00-07:00</updated>
-    <id>http://darron-blog.herokuapp.com//2012/12/21/it-s-cool-when-clinton-proposes-it-</id>
+    <id>http://blog.froese.org//2012/12/21/it-s-cool-when-clinton-proposes-it-</id>
     <content type="html"><![CDATA[<div class="posterous_bookmarklet_entry">
       <blockquote class="posterous_long_quote"><p>&#8220;These districts are bringing school nurses and counselors together to respond to warning signs like depression or bullying,&#8221; Clinton said. &#8220;They are improving classroom security and expanding after-school and mentoring programs.&#8221;</p><p>Clinton also unveiled the $60-million fifth round of funding for &#8220;COPS in School,&#8221; a Justice Department program that helps pay the costs of placing police officers in schools to help make them safer for students and teachers. The money will be used to provide 452 officers in schools in more than 220 communities.</p><p>&#8220;Already, it has placed 2,200 officers in more than 1,000 communities across our nation, where they are heightening school safety as well as coaching sports and acting as mentors and mediators for kids in need,&#8221; Clinton said.</p></blockquote>
 
@@ -119,9 +119,9 @@
   
   <entry>
     <title type="html"><![CDATA[The Secret History of Guns - Adam Winkler - The Atlantic]]></title>
-    <link href="http://darron-blog.herokuapp.com//2012/12/20/the-secret-history-of-guns-adam-winkler-the-atlantic/"/>
+    <link href="http://blog.froese.org//2012/12/20/the-secret-history-of-guns-adam-winkler-the-atlantic/"/>
     <updated>2012-12-20T00:00:00-07:00</updated>
-    <id>http://darron-blog.herokuapp.com//2012/12/20/the-secret-history-of-guns-adam-winkler-the-atlantic</id>
+    <id>http://blog.froese.org//2012/12/20/the-secret-history-of-guns-adam-winkler-the-atlantic</id>
     <content type="html"><![CDATA[<div class="posterous_bookmarklet_entry">
       <blockquote class="posterous_long_quote">I<span style="">ndisputably, for much </span>of American history, gun-control measures, like many other laws, were used to oppress African Americans. The South had long prohibited blacks, both slave and free, from owning guns. In the North, however, at the end of the Civil War, the Union army allowed soldiers of any color to take home their rifles. Even blacks who hadn’t served could buy guns in the North, amid the glut of firearms produced for the war. President Lincoln had promised a “new birth of freedom,” but many blacks knew that white Southerners were not going to go along easily with such a vision. As one freedman in Louisiana recalled, “I would say to every colored soldier, ‘Bring your gun home.’”</blockquote>
 
@@ -132,9 +132,9 @@
   
   <entry>
     <title type="html"><![CDATA[Texas School District Allows Teachers to Carry Guns in Classrooms]]></title>
-    <link href="http://darron-blog.herokuapp.com//2012/12/18/texas-school-district-allows-teachers-to-carry-guns-in-classrooms/"/>
+    <link href="http://blog.froese.org//2012/12/18/texas-school-district-allows-teachers-to-carry-guns-in-classrooms/"/>
     <updated>2012-12-18T00:00:00-07:00</updated>
-    <id>http://darron-blog.herokuapp.com//2012/12/18/texas-school-district-allows-teachers-to-carry-guns-in-classrooms</id>
+    <id>http://blog.froese.org//2012/12/18/texas-school-district-allows-teachers-to-carry-guns-in-classrooms</id>
     <content type="html"><![CDATA[<div class="posterous_bookmarklet_entry">
       <blockquote class="posterous_long_quote"><p><span style="font-size: medium;">There&#8217;s a lot of talk about how to deal with incidents like the Sandy Hook Elementary shooting in Newtown Connecticut, and one being floated by conservatives is the idea of arming school teachers and administrators.</span></p>
 <p>&nbsp;</p>
@@ -149,9 +149,9 @@
   
   <entry>
     <title type="html"><![CDATA[Off duty security guard stops douchebag.]]></title>
-    <link href="http://darron-blog.herokuapp.com//2012/12/18/off-duty-security-guard-stops-douchebag-/"/>
+    <link href="http://blog.froese.org//2012/12/18/off-duty-security-guard-stops-douchebag-/"/>
     <updated>2012-12-18T00:00:00-07:00</updated>
-    <id>http://darron-blog.herokuapp.com//2012/12/18/off-duty-security-guard-stops-douchebag-</id>
+    <id>http://blog.froese.org//2012/12/18/off-duty-security-guard-stops-douchebag-</id>
     <content type="html"><![CDATA[<div class="posterous_bookmarklet_entry">
       <blockquote class="posterous_long_quote"><p><span style="font-size: medium;">&nbsp; Antu says the gunman never made it into the theater itself, thanks largely to the heroic work of the off duty deputy.</span></p>
 <p>&nbsp;</p>
@@ -164,9 +164,9 @@
   
   <entry>
     <title type="html"><![CDATA[Man says he had shooter in his sights, but chose safety over firing]]></title>
-    <link href="http://darron-blog.herokuapp.com//2012/12/18/man-says-he-had-shooter-in-his-sights-but-chose-safety-over-firing/"/>
+    <link href="http://blog.froese.org//2012/12/18/man-says-he-had-shooter-in-his-sights-but-chose-safety-over-firing/"/>
     <updated>2012-12-18T00:00:00-07:00</updated>
-    <id>http://darron-blog.herokuapp.com//2012/12/18/man-says-he-had-shooter-in-his-sights-but-chose-safety-over-firing</id>
+    <id>http://blog.froese.org//2012/12/18/man-says-he-had-shooter-in-his-sights-but-chose-safety-over-firing</id>
     <content type="html"><![CDATA[<div class="posterous_bookmarklet_entry">
       <blockquote class="posterous_long_quote">Meli earlier told a KGW reporter that he heard three gunshots, and then positioned himself behind a pillar in the mall. Meli said he saw the gunman working on his rifle, pulling a charging handle and hitting the side of the weapon. &nbsp;<p>Meli said he then pulled out his Glock 22 pistol and aimed it at the suspect. But when he saw someone move behind Roberts, Meli decided against firing, concerned he might hit an innocent person. </p><p>Meli also told KGW that Roberts appeared to spot him and that afterward, Meli heard only one more shot, and suspects it was the one Roberts used to kill himself.</p></blockquote>
 
@@ -177,9 +177,9 @@
   
   <entry>
     <title type="html"><![CDATA[Auditing Shooting Rampage Statistics - Daily Anarchist]]></title>
-    <link href="http://darron-blog.herokuapp.com//2012/12/18/auditing-shooting-rampage-statistics-daily-anarchist/"/>
+    <link href="http://blog.froese.org//2012/12/18/auditing-shooting-rampage-statistics-daily-anarchist/"/>
     <updated>2012-12-18T00:00:00-07:00</updated>
-    <id>http://darron-blog.herokuapp.com//2012/12/18/auditing-shooting-rampage-statistics-daily-anarchist</id>
+    <id>http://blog.froese.org//2012/12/18/auditing-shooting-rampage-statistics-daily-anarchist</id>
     <content type="html"><![CDATA[<div class="posterous_bookmarklet_entry">
       <blockquote class="posterous_long_quote"><p><strong>The average number of people killed in mass shootings when stopped by police is 14.29</strong></p>
 <p><strong>The average number of people killed in a mass shooting when stopped by a civilian is&nbsp;2.33</strong></p>
@@ -192,9 +192,9 @@
   
   <entry>
     <title type="html"><![CDATA[Variable Technologies: We are a world of gadgeteers. - Node is so cool.]]></title>
-    <link href="http://darron-blog.herokuapp.com//2012/12/11/variable-technologies-we-are-a-world-of-gadgeteers-node-is-so-cool-/"/>
+    <link href="http://blog.froese.org//2012/12/11/variable-technologies-we-are-a-world-of-gadgeteers-node-is-so-cool-/"/>
     <updated>2012-12-11T00:00:00-07:00</updated>
-    <id>http://darron-blog.herokuapp.com//2012/12/11/variable-technologies-we-are-a-world-of-gadgeteers-node-is-so-cool-</id>
+    <id>http://blog.froese.org//2012/12/11/variable-technologies-we-are-a-world-of-gadgeteers-node-is-so-cool-</id>
     <content type="html"><![CDATA[<div class="posterous_bookmarklet_entry">
       [[posterous-content:mnlHiJJyrgAcIJbGbFdi]]<div class="posterous_quote_citation">via <a href="http://www.variabletech.com/products/">variabletech.com</a></div>
     <p></p></div>
@@ -203,9 +203,9 @@
   
   <entry>
     <title type="html"><![CDATA[Health-care battle heats up]]></title>
-    <link href="http://darron-blog.herokuapp.com//2012/08/20/health-care-battle-heats-up/"/>
+    <link href="http://blog.froese.org//2012/08/20/health-care-battle-heats-up/"/>
     <updated>2012-08-20T00:00:00-06:00</updated>
-    <id>http://darron-blog.herokuapp.com//2012/08/20/health-care-battle-heats-up</id>
+    <id>http://blog.froese.org//2012/08/20/health-care-battle-heats-up</id>
     <content type="html"><![CDATA[<div class="posterous_bookmarklet_entry">
       <blockquote class="posterous_long_quote"><p>&#8220;She may have terminal cancer, but she still goes for walks and even plays a little golf,&#8221; Day said. &#8220;Then she injured her knee, and all she wants to do is enjoy the quality of life she has remaining. She wants to go for her walks.</p><p>&#8220;But the government says, &#8216;No, you have to wait.&#8217; They handed an 18-month sentence to a woman who may have only 18 months, or less, to live.&#8221;</p><p>Krahn is one of four patients named in Day&#8217;s lawsuit, which argues the constitutional right to &#8220;life, liberty and security of the person&#8221; means they should be allowed to spend their own money on their own health care when that care is denied by the government.</p></blockquote>
 
@@ -216,9 +216,9 @@
   
   <entry>
     <title type="html"><![CDATA[8 | Homeboy Industries Reboots The Lives Of Tattooed Former Gangbangers, And Even One CEO | Co.Exist: World changing ideas and innovation]]></title>
-    <link href="http://darron-blog.herokuapp.com//2012/07/16/8-homeboy-industries-reboots-the-lives-of-tattooed-former-gangbangers-and-even-one-ceo-co-exist-world-changing-ideas-and-innovation/"/>
+    <link href="http://blog.froese.org//2012/07/16/8-homeboy-industries-reboots-the-lives-of-tattooed-former-gangbangers-and-even-one-ceo-co-exist-world-changing-ideas-and-innovation/"/>
     <updated>2012-07-16T00:00:00-06:00</updated>
-    <id>http://darron-blog.herokuapp.com//2012/07/16/8-homeboy-industries-reboots-the-lives-of-tattooed-former-gangbangers-and-even-one-ceo-co-exist-world-changing-ideas-and-innovation</id>
+    <id>http://blog.froese.org//2012/07/16/8-homeboy-industries-reboots-the-lives-of-tattooed-former-gangbangers-and-even-one-ceo-co-exist-world-changing-ideas-and-innovation</id>
     <content type="html"><![CDATA[<div class="posterous_bookmarklet_entry">
       <blockquote class="posterous_short_quote">From Boyle’s perspective, Homeboy was primarily in the business of hiring people: &#8220;We don’t hire homies to bake bread. We bake bread to hire homies.</blockquote><div class="posterous_quote_citation">via <a href="http://www.fastcoexist.com/1679680/homeboy-industries-reboots-the-lives-of-tattooed-former-gangbangers-and-even-one-ceo#8">fastcoexist.com</a></div>
     <p></p></div>
@@ -227,9 +227,9 @@
   
   <entry>
     <title type="html"><![CDATA[Jeff Loflin was talking about Sidemount Diving at The Dive Shop today]]></title>
-    <link href="http://darron-blog.herokuapp.com//2012/07/08/jeff-loflin-was-talking-about-sidemount-diving-at-the-dive-shop-today/"/>
+    <link href="http://blog.froese.org//2012/07/08/jeff-loflin-was-talking-about-sidemount-diving-at-the-dive-shop-today/"/>
     <updated>2012-07-08T00:00:00-06:00</updated>
-    <id>http://darron-blog.herokuapp.com//2012/07/08/jeff-loflin-was-talking-about-sidemount-diving-at-the-dive-shop-today</id>
+    <id>http://blog.froese.org//2012/07/08/jeff-loflin-was-talking-about-sidemount-diving-at-the-dive-shop-today</id>
     <content type="html"><![CDATA[<p>I went to a presentation at <a href="http://www.diveshopscuba.com/" title="The Dive Shop Calgary">The Dive Shop</a> by visiting instructor <a href="http://www.jeffloflin.com/" title="Jeff Loflin | Technical, Sidemount, and Cave Dive Training">Jeff Loflin</a> on Cave diving and the path to Full Cave (and beyond) last night.</p>
 <p>It was interesting enough to me, so I bought his <a href="http://www.sidemountvideo.com/" title="Sidemount Video">new sidemount training video</a> and watched it last night waiting for a chance to try out a sidemount rig today.</p>
 <p>Today Jeff gave another 1.5 hour presentation on the changes he&#8217;s seen to sidemount over the last 6 years, he traced its evolution from Europe a few decades ago, to where it is today - the <strong>new big thing</strong>&trade;.</p>
@@ -268,9 +268,9 @@
   
   <entry>
     <title type="html"><![CDATA[Canada's election laws changing to reflect Twitter reality]]></title>
-    <link href="http://darron-blog.herokuapp.com//2012/01/14/canada-s-election-laws-changing-to-reflect-twitter-reality/"/>
+    <link href="http://blog.froese.org//2012/01/14/canada-s-election-laws-changing-to-reflect-twitter-reality/"/>
     <updated>2012-01-14T00:00:00-07:00</updated>
-    <id>http://darron-blog.herokuapp.com//2012/01/14/canada-s-election-laws-changing-to-reflect-twitter-reality</id>
+    <id>http://blog.froese.org//2012/01/14/canada-s-election-laws-changing-to-reflect-twitter-reality</id>
     <content type="html"><![CDATA[<div class="posterous_bookmarklet_entry">
       <blockquote class="posterous_long_quote"><p>The Harper government will repeal the ban on communicating election results while polls are still open, bringing the law into harmony with the realities of today&#8217;s instant communications.</p><p></p><p>The election night blackout was adopted in 1938, to prevent western voters from knowing the results of the election in the east when they cast their ballots.</p><p></p><p>Minister of State for Democratic Reform Tim Uppal announced via Twitter Friday that the antiquated law will been repealed in time for the next election.</p></blockquote>
 
@@ -281,9 +281,9 @@
   
   <entry>
     <title type="html"><![CDATA[Government to gun owners: We made a mistake. Fix it for us or go to prison | Canadian gun laws are messed up.]]></title>
-    <link href="http://darron-blog.herokuapp.com//2012/01/12/government-to-gun-owners-we-made-a-mistake-fix-it-for-us-or-go-to-prison-canadian-gun-laws-are-messed-up-/"/>
+    <link href="http://blog.froese.org//2012/01/12/government-to-gun-owners-we-made-a-mistake-fix-it-for-us-or-go-to-prison-canadian-gun-laws-are-messed-up-/"/>
     <updated>2012-01-12T00:00:00-07:00</updated>
-    <id>http://darron-blog.herokuapp.com//2012/01/12/government-to-gun-owners-we-made-a-mistake-fix-it-for-us-or-go-to-prison-canadian-gun-laws-are-messed-up-</id>
+    <id>http://blog.froese.org//2012/01/12/government-to-gun-owners-we-made-a-mistake-fix-it-for-us-or-go-to-prison-canadian-gun-laws-are-messed-up-</id>
     <content type="html"><![CDATA[<div class="posterous_bookmarklet_entry">
       <blockquote class="posterous_long_quote"><p>With the G22 rifle, the RCMP has at least a flimsy excuse for the reclassification— it says because the rifle can be easily shortened by removing the back end, it’s too easily concealable to be a non-restricted rifle (the blame still lies with the government for making the mistake in the first place, but at least that’s something). The decision to ban the AP-80, however, has no logic behind it at all. The RCMP claims that it was “incorrectly registered” as non-restricted because the AP-80 is a “variant of the design of the firearm commonly known as the AK-47 rifle” — a Soviet-designed military combat rifle.</p>
 <p>Except … it isn’t. At all. The AP-80 fires an entirely different (and much weaker) kind of ammunition, using a different internal mechanism and is built from completely different materials and components (precisely zero of the parts of the AP-80 and AK-47 are compatible or interchangeable). The only thing the AP-80 has in common with the AK-47 is its silhouette — when the AP-80 was designed, the manufacturer decided to make it look like the famous AK-47, for purely marketing reasons. As a rifle, the AP-80 is a completely unremarkable low-caliber plinker. Only by making it look like a famous military rifle could the company hope to sell many copies, so that’s what they did. The RCMP is banning the AP-80 because it looks scary.</p></blockquote>
@@ -295,9 +295,9 @@
   
   <entry>
     <title type="html"><![CDATA[Need to combine a bunch of PDF files in pure ruby?]]></title>
-    <link href="http://darron-blog.herokuapp.com//2012/01/11/need-to-combine-a-bunch-of-pdf-files-in-pure-ruby-/"/>
+    <link href="http://blog.froese.org//2012/01/11/need-to-combine-a-bunch-of-pdf-files-in-pure-ruby-/"/>
     <updated>2012-01-11T00:00:00-07:00</updated>
-    <id>http://darron-blog.herokuapp.com//2012/01/11/need-to-combine-a-bunch-of-pdf-files-in-pure-ruby-</id>
+    <id>http://blog.froese.org//2012/01/11/need-to-combine-a-bunch-of-pdf-files-in-pure-ruby-</id>
     <content type="html"><![CDATA[<p>Found a great set of gems:</p>
 <p><a href="https://github.com/paulschreiber/pdf-merger">PDF Merger</a>&nbsp;(also requires<span style=""> </span><a href="http://rjb.rubyforge.org/">RJB</a>, and <a href="http://itextpdf.com/download.php">iText</a>)</p>
 <p>Once you&#8217;ve got your JRE installed and iText installed - install the gems:</p>
@@ -310,9 +310,9 @@
   
   <entry>
     <title type="html"><![CDATA[sysadvent: Day 9 - Data in the Shell | Some great tools here.]]></title>
-    <link href="http://darron-blog.herokuapp.com//2011/12/25/sysadvent-day-9-data-in-the-shell-some-great-tools-here-/"/>
+    <link href="http://blog.froese.org//2011/12/25/sysadvent-day-9-data-in-the-shell-some-great-tools-here-/"/>
     <updated>2011-12-25T00:00:00-07:00</updated>
-    <id>http://darron-blog.herokuapp.com//2011/12/25/sysadvent-day-9-data-in-the-shell-some-great-tools-here-</id>
+    <id>http://blog.froese.org//2011/12/25/sysadvent-day-9-data-in-the-shell-some-great-tools-here-</id>
     <content type="html"><![CDATA[<div class="posterous_bookmarklet_entry">
       <blockquote class="posterous_long_quote"><p>The shell is where I live most days, and the shell has pipes. Pipes simply transmit plain text, and many pieces of data I deal with are structured data where staples like grep and sed are not the best.</p><p>Fortunately, there are lots of tools available to help you deal with these structured formats.</p></blockquote>
 
@@ -323,9 +323,9 @@
   
   <entry>
     <title type="html"><![CDATA[McDonald’s withdrawal from Bolivia: capitalism in action | Institute of Economic Affairs]]></title>
-    <link href="http://darron-blog.herokuapp.com//2011/12/20/mcdonald-s-withdrawal-from-bolivia-capitalism-in-action-institute-of-economic-affairs/"/>
+    <link href="http://blog.froese.org//2011/12/20/mcdonald-s-withdrawal-from-bolivia-capitalism-in-action-institute-of-economic-affairs/"/>
     <updated>2011-12-20T00:00:00-07:00</updated>
-    <id>http://darron-blog.herokuapp.com//2011/12/20/mcdonald-s-withdrawal-from-bolivia-capitalism-in-action-institute-of-economic-affairs</id>
+    <id>http://blog.froese.org//2011/12/20/mcdonald-s-withdrawal-from-bolivia-capitalism-in-action-institute-of-economic-affairs</id>
     <content type="html"><![CDATA[<div class="posterous_bookmarklet_entry">
       <blockquote class="posterous_long_quote">Bolivians were never prevented by their government from buying burgers; they simply chose not to do so. This is not a victory over capitalism, it <em>is</em> capitalism.</blockquote>
 
@@ -336,9 +336,9 @@
   
   <entry>
     <title type="html"><![CDATA[An Indian Inventor Disrupts The Period Industry | Co.Exist: World changing ideas and innovation]]></title>
-    <link href="http://darron-blog.herokuapp.com//2011/12/19/an-indian-inventor-disrupts-the-period-industry-co-exist-world-changing-ideas-and-innovation/"/>
+    <link href="http://blog.froese.org//2011/12/19/an-indian-inventor-disrupts-the-period-industry-co-exist-world-changing-ideas-and-innovation/"/>
     <updated>2011-12-19T00:00:00-07:00</updated>
-    <id>http://darron-blog.herokuapp.com//2011/12/19/an-indian-inventor-disrupts-the-period-industry-co-exist-world-changing-ideas-and-innovation</id>
+    <id>http://blog.froese.org//2011/12/19/an-indian-inventor-disrupts-the-period-industry-co-exist-world-changing-ideas-and-innovation</id>
     <content type="html"><![CDATA[<div class="posterous_bookmarklet_entry">
       <blockquote class="posterous_medium_quote">When Arunachalam Muruganantham hit a wall in his research on creating a sanitary napkin for poor women, he decided to do what most men typically wouldn’t dream of. He wore one himself&#8211;for a whole week. Fashioning his own menstruating uterus by filling a bladder with goat’s blood, Muruganantham went about his life while wearing women’s underwear, occasionally squeezing the contraption to test out his latest iteration. It resulted in endless derision and almost destroyed his family. But no one is laughing at him anymore, as the sanitary napkin-making machine he went on to create is transforming the lives of rural women across India.</blockquote>
 
