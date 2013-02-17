@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://darron-blog.herokuapp.com//sitemap.xml 
