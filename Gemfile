@@ -1,5 +1,6 @@
 source "http://rubygems.org"
 
+gem 'unicorn'
 gem 'rake', '~> 0.9'
 gem 'rack', '~> 1.4.1'
 gem 'jekyll', '~> 0.12'

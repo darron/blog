@@ -8,6 +8,8 @@ subtitle: Mostly about Linux, the web, system administration and software develo
 author: Darron Froese
 simple_search: http://google.com/search
 description:
+    
+exclude: Gemfile Gemfile.lock Procfile config.ru
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
