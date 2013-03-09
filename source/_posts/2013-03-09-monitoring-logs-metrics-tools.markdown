@@ -7,7 +7,7 @@ categories:
 ---
 I was getting a demo of a new tool/toolset from the guys at [Stackdriver](http://www.stackdriver.com) yesterday and we were talking about some of the monitoring/logs/metrics tools I was using. I listed a few, but after we finished the call I realized that I had actually forgotten a whole bunch that we use.
 
-This post is an overview of some of the tools we use at [nonfiction](http://www.nonfiction.ca/) to monitor our servers:
+In the spirit of [Thomas Fuchs' recent post](http://mir.aculo.us/2013/02/16/running-a-saas-here-are-some-services-youll-find-useful/), this post is an overview of some of the tools we use at [nonfiction](http://www.nonfiction.ca/) to monitor our servers:
 
 1. [Pingdom](https://www.pingdom.com) - monitors our public web and dns servers - the [public status report](http://status.nonfiction.ca) is always available. Alerts via [Pagerduty](http://www.pagerduty.com) if it detects a problem.
 2. [Munin](http://munin-monitoring.org) - on an ancient RHEL box - about to be retired - graphed basic server metrics for years.
