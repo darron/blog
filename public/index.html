@@ -9,7 +9,7 @@
   <meta name="author" content="Darron Froese">
 
   
-  <meta name="description" content="That sounds a bit harsh - but ultimately it&#8217;s true. Late last year, Smashing Magazine wrote an article about SEO and basically said that: As &hellip;">
+  <meta name="description" content="I was getting a demo of a new tool/toolset from the guys at Stackdriver yesterday and we were talking about some of the monitoring/logs/metrics tools &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -78,6 +78,85 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2013/03/09/monitoring-logs-metrics-tools/">Monitoring/Logs/Metrics Tools</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-09T10:46:00-07:00" pubdate data-updated="true">Mar 9<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I was getting a demo of a new tool/toolset from the guys at <a href="http://www.stackdriver.com">Stackdriver</a> yesterday and we were talking about some of the monitoring/logs/metrics tools I was using. I listed a few, but after we finished the call I realized that I had actually forgotten a few.</p>
+
+<p>This post is an overview of some of the tools we use at <a href="http://www.nonfiction.ca/">nonfiction</a> to monitor our servers:</p>
+
+<ol>
+<li><a href="https://www.pingdom.com">Pingdom</a> - monitors our public web and dns servers - the <a href="http://status.nonfiction.ca">public status report</a> is always available. Alerts via <a href="http://www.pagerduty.com">Pagerduty</a> if it detects a problem.</li>
+<li><a href="http://munin-monitoring.org">Munin</a> - on an ancient RHEL box - about to be retired - graphed basic server metrics for years.</li>
+<li><a href="http://mmonit.com/monit/">Monit</a> - deployed via Chef - restarts servers if they&#8217;re not responding - local to each server - notifies via email.</li>
+<li><a href="http://www.datadoghq.com">Datadog</a> - deployed via Chef - creates all sorts of server utilization graphs (like Munin) by default, also ties in <a href="http://www.datadoghq.com/integrations/">various integrations</a> to show your whole environment and how it works together. You can also throw <a href="http://docs.datadoghq.com/guides/metrics/">various metrics into Datadog</a>, and they take care of <a href="https://github.com/darron/fastdog">storing and visualizing those metrics</a>. My current favorite tool because of the ease of use and integrations.</li>
+<li><a href="https://papertrailapp.com">Papertrail</a> - log aggregator that pulls all of your server logs together in one place: syslog, Heroku, random log files, etc. You can also alert for specific log patterns using <a href="http://www.pagerduty.com">Pagerduty</a> - very handy for so many reasons and worth every penny.</li>
+<li><a href="https://github.com/darron/servicenarc">Servicenarc</a> - a way to make sure various cronjobs are running as often as they&#8217;re supposed to. Based on <a href="https://deadmanssnitch.com">Dead Man&#8217;s Snitch</a>.</li>
+<li><a href="http://boundary.com">Boundary</a> - pretty amazing network visualization tool to show your network flows in pretty much real time. Don&#8217;t use it as often as I should but it&#8217;s pretty incredible when I do look at it.</li>
+<li><a href="http://denyhosts.sourceforge.net">Denyhosts</a> - watches for SSH password guessing and locks out IP addresses that are trying to break in.</li>
+<li><a href="http://logcheck.org/">Logcheck</a> - mails out &#8220;suspicious&#8221; log files - was a great tool in the past, but has largely been replaced by <a href="https://papertrailapp.com">Papertrail</a> for us.</li>
+<li><a href="https://airbrake.io/pages/home">Airbrake</a> - our Rails apps all have this integrated for error detection and logging</li>
+</ol>
+
+
+<p>There are some tools I want to try out or take a closer look at:</p>
+
+<ol>
+<li><a href="http://sensuapp.org">Sensu</a> - looks promising.</li>
+<li><a href="http://www.ossec.net">OSSEC</a> - I had a basic installation running, but it was SOOOO chatty that I quickly ignored it - would like to see if I can get it to a reasonable balance of signal vs. noise.</li>
+<li><a href="http://www.stackdriver.com">Stackdriver</a> - looks interesting.</li>
+<li><a href="http://www.fail2ban.org">Fail2ban</a> - want to extend DenyHosts to FTP at least.</li>
+<li><a href="http://www.logstash.net">logstash</a> - turning logfiles into actionable data seems interesting</li>
+</ol>
+
+
+<p>Also some other notable tools I have looked at in the past but don&#8217;t use at the moment:</p>
+
+<ol>
+<li><a href="http://newrelic.com/lp/server-monitoring">New Relic</a> - using this on one project but not overall</li>
+<li><a href="http://www.tracelytics.com">Tracealtyics</a> - too much noise for us to be useful - may work better in other environments</li>
+<li><a href="http://copperegg.com">CopperEgg</a> - liked it - worked pretty good for us</li>
+<li><a href="http://www.serverdensity.com">Server Density</a> - liked the iPhone app</li>
+<li><a href="http://www.splunk.com/view/splunk-storm/SP-CAAAG58">Splunk Storm</a> - seemed super expensive but worked pretty well</li>
+<li><a href="http://loggly.com">Loggly</a> - worked great - just liked <a href="https://papertrailapp.com">Papertrail</a> better</li>
+<li><a href="https://scoutapp.com">Scout</a> - worked great</li>
+<li><a href="http://www.modsecurity.org">Mod Security</a> - too much noise for us to be useful - may work better in other environments</li>
+</ol>
+
+
+<p>What do you guys use? Anything notable that I&#8217;ve missed that I should look into?</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -515,48 +594,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2012/12/18/off-duty-security-guard-stops-douchebag-/">Off Duty Security Guard Stops Douchebag.</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-12-18T00:00:00-07:00" pubdate data-updated="true">Dec 18<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><div class="posterous_bookmarklet_entry">
-      <blockquote class="posterous_long_quote"><p><span style="font-size: medium;">&nbsp; Antu says the gunman never made it into the theater itself, thanks largely to the heroic work of the off duty deputy.</span></p>
-<p>&nbsp;</p>
-<p><span style="font-size: medium;">&nbsp; &#8220;She did what she felt she had to do,&#8221; Antu said.&nbsp; &#8220;I feel that she saved a lot of lives by taking the action she had to take.&#8221;</span></p></blockquote>
-
-<div class="posterous_quote_citation">via <a href="http://radio.woai.com/cc-common/mainheadlines3.html?feed=119078&amp;article=10644119#ixzz2FP2SiZCm">radio.woai.com</a></div>
-    <p></p></div>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -572,6 +609,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2013/03/09/monitoring-logs-metrics-tools/">Monitoring/Logs/Metrics Tools</a>
+      </li>
+    
+      <li class="post">
         <a href="/2013/02/19/youre-the-seo-problem-only-you-can-fix-it/">You&#8217;re the SEO problem - only you can fix it.</a>
       </li>
     
@@ -585,10 +626,6 @@
     
       <li class="post">
         <a href="/2013/01/03/more-falsehoods-programmers-believe-about-time-wisdom-of-the-crowd-edition-noahsussman-infinite-undo/">More falsehoods programmers believe about time; &#8220;wisdom of the crowd&#8221; edition: @NoahSussman: Infinite Undo</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/12/29/a-little-chef-advice-is-needed-how-to-move-forward-opschef/">A little Chef advice is needed - how to move forward. #opschef</a>
       </li>
     
   </ul>
