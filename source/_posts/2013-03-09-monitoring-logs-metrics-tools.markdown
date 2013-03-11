@@ -38,5 +38,6 @@ Also some other notable tools I have looked at in the past but don't use at the 
 6. [Loggly](http://loggly.com) - worked great - just liked [Papertrail](https://papertrailapp.com) better
 7. [Scout](https://scoutapp.com) - worked great
 8. [Mod Security](http://www.modsecurity.org) - too much noise for us to be useful - may work better in other environments
+9. [Librato Metrics](https://metrics.librato.com) - powerful tool with a great team behind it
 
 What do you guys use? Anything notable that I've missed that I should look into?
