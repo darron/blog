@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 published: true
 title: "Using Prose.io as a CMS"
 date: 2013-04-23 10:46
