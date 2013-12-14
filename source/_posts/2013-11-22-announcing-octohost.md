@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: "Announcing octohost"
-date: 2013-10-22 09:00
+date: 2013-11-22 09:00
 comments: true
 categories: 
 ---
