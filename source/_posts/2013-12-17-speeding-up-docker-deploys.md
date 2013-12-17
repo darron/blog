@@ -7,7 +7,7 @@ comments: true
 categories: 
 ---
 
-At [nonfiction] we're building a platform to help deploy simple sites for our clients. The platform is called Handbill, under the scenes it's using [Harp](http://harpjs.com/) and [octohost](https://github.com/octohost/octohost).
+At [nonfiction](http://www.nonfiction.ca) we're building a platform to help deploy simple sites for our clients. The platform is called Handbill, under the scenes it's using [Harp](http://harpjs.com/) and [octohost](https://github.com/octohost/octohost).
 
 We were working on trying to make sure that the deploys were happening quicker than they were - 30-40 seconds was just too long.
 
