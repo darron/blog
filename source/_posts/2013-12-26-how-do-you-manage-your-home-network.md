@@ -35,4 +35,17 @@ I already know that:
 3. I likely need some sort of small home server. It needs the ability to add/replace failing and/or newer/bigger disks - installing the OS and other software will allow more flexibility - but it will be yet another thing to manage.
 4. I will need to create some sort of better wireless network - maybe extending it with a couple DD-WRT wireless routers.
 
+*Update: Saturday December 28, 2013*
+
+1. Gigabit switch - check.
+2. Got a new Apple Airport Extreme installed in my living room. Better coverage and better placement.
+3. Have setup the Shaw router a little better and have simplified my network some more.
+
+Still to do:
+
+1. Integrate my old Time Capsule into the network and extend the range.
+2. Setup a home server to hold all of our movies etc.
+3. Setup a firewall with some sort of [Ultra compact PC](http://ca.gigabyte.com/products/list.aspx?s=47&ck=104).
+3. Get a [Skydog](http://www.skydog.com/).
+
 What are you using to manage your home network?
