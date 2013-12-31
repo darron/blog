@@ -10,7 +10,7 @@ This Christmas, I decided that I would take on a challenge over the holidays - a
 
 JavaScript
 
-I've spent the last 11 years bootstrapping and running a [corporate communications business](http://www.nonfiction/ca). This means that I haven't been able to do as much technology work as I'd have liked to. I am a sysadmin who can code - not a developer who can sysadmin - and as such - front end technology such as JavaScript was always very frustrating to me.
+I've spent the last 11 years bootstrapping and running a [corporate communications business](http://www.nonfiction.ca). This means that I haven't been able to do as much technology work as I'd have liked to. I am a sysadmin who can code - not a developer who can sysadmin - and as such - front end technology such as JavaScript was always very frustrating to me.
 
 So I decided that I was going to take 3 JavaScript courses this season to conquer that frustration - which was mostly born out of fear.
 
