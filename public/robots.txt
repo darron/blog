@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://blog.froese.org//sitemap.xml 
+Sitemap: http://darron.froese.org/sitemap.xml 
