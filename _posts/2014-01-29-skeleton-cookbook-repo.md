@@ -8,12 +8,12 @@ categories:
 
 Saw this [link here](http://theagileadmin.com/2014/01/20/clean-up-your-cookbook-mess-with-meez/) that talks about installing a Ruby gem to manage your Chef cookbooks. 
 
-It's a great idea, and if you haven't built any already, it's a great start - but as time goes on - you will find that you don't really like how it does it - or you want to change things - and those things aren't a great fit for the main repo (which you don't control).
+It's a great idea, and if you haven't built any already, it's a great start. But as time goes on - you may find that you don't really like how that particular system does it - or you want to change things. Somtimes those changes aren't a great fit for the main repo (which you don't control).
 
 A month or two ago, I decided I had had enough and went and looked through github for a few example skeleton cookbooks. I found:
 
 1. [https://github.com/mlafeldt/skeleton-cookbook](https://github.com/mlafeldt/skeleton-cookbook)
-2. [https://github.com/paulczar/cookbook-meez](https://github.com/paulczar/cookbook-meez) - where the meez gem comes from
+2. [https://github.com/paulczar/cookbook-meez](https://github.com/paulczar/cookbook-meez) - where the [meez gem](https://github.com/paulczar/meez) comes from
 
 I took the mlafeldt/skeleton-cookbook and [forked it](https://github.com/darron/skeleton-cookbook), and then found a few things from meez that I liked.
 
@@ -22,6 +22,7 @@ Since then, I have been adding features to my cookbook skeleton as needed:
 1. Packer Support
 2. Vagrant Support
 3. Rubocop and Tailor support.
+4. A decent Rakefile that does most of the building.
 
 Now it's perfectly setup to how I like to use it, and it has my defaults already to go.
 
