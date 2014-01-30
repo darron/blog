@@ -6,7 +6,7 @@ comments: true
 categories: 
 ---
 
-Saw this [link here](http://theagileadmin.com/2014/01/20/clean-up-your-cookbook-mess-with-meez/) that talks about installing a Ruby gem to manage your Chef cookbooks. 
+Saw this [link here](http://theagileadmin.com/2014/01/20/clean-up-your-cookbook-mess-with-meez/) that talks about installing a Ruby gem to help create a good Chef cookbook. 
 
 It's a great idea, and if you haven't built any already, it's a great start. But as time goes on - you may find that you don't really like how that particular system does it - or you want to change things. Somtimes those changes aren't a great fit for the main repo (which you don't control).
 
