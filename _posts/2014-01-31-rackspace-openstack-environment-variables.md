@@ -16,3 +16,5 @@ Googling for what should be in the ENV variables gave all sorts of contradictory
     export SDK_PROVIDER="rackspace-us" # Or rackspace-uk
 
 Just posting this here for Google - hopefully you find this and it helps you - I was frustrated for quite a while.
+
+PS - I couldn't find this information anywhere in Rackpsace's official documentation - if you know what it is - please send over a link!
