@@ -7,8 +7,7 @@ ENV LC_ALL en_US.UTF-8
 WORKDIR /srv/www
 
 ADD . /srv/www/
-RUN jekyll build
 
-EXPOSE 80
+EXPOSE 4000
 
-CMD nginx
+CMD jekyll serve
