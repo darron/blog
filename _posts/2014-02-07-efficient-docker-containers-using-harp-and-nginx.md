@@ -51,4 +51,6 @@ Deploys now:
 
 That's a win in my books.
 
-You can grab the source to our base container [here](https://github.com/octohost/harp-nginx) or just `docker pull octohost/harp-nginx`
+You can grab the source to our base container [here](https://github.com/octohost/harp-nginx) or just `docker pull octohost/harp-nginx`.
+
+To see a working Harp site - [take a look here for the source](https://github.com/octohost/harp) and [here for the running site](http://harp.octohost.io/).
