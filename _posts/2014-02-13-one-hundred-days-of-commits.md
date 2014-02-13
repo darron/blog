@@ -8,7 +8,7 @@ categories:
 
 100 days ago, I made a goal for myself to commit something to [Github](https://github.com/darron) every day.
 
-![Github contributions](/images/100-days.gif)
+![Github contributions](/public/images/100-days.gif)
 
 I was feeling a little stagnant and wanted to challenge myself and make sure that I was learning every day.
 
