@@ -22,4 +22,4 @@ I've been feeling pretty renewed and envigorated as I have built and learned thi
 
 I love it - going to see how long I can keep this up. At the pace I'm at, it's pretty sustainable I just need to keep going - one commit at a time.
 
-NOTE: If you're not me, [it looks like I've only got 15 days in a row](https://github.com/darron) - but lots of my commits are to private repos - I wish that would show on the graph - but that's how it is.
+NOTE: If you're not logged into my account, [it looks like I've only got 15 days in a row](https://github.com/darron) - but lots of my commits are to private repos - I wish that would show on the graph - but that's how it is.
