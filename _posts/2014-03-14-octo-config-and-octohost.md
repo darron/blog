@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Using octo config - easy environment variables - on octohost."
-date: 2014-03-10 20:00
+date: 2014-03-14 10:00
 comments: true
 categories:
 ---
@@ -23,8 +23,41 @@ I felt a little guilty when I added it to Heroku, because [we're](http://www.non
 
 On Sunday, I rebuilt the 'quick little hack' that I made on Saturday night and added a bunch of new features - I called it [Canary](https://github.com/darron/canary). By the way - Canary did help me to see that keepalive was working correctly \(other than the DST change\) - so it fulfilled its purpose.
 
-Monday morning I decided I'd add some easily configured environment variables to octohost. I patterned them after Heroku's [Config Vars](https://devcenter.heroku.com/articles/config-vars) - here's a little video showing how they work:
+Monday morning I decided I'd add some easily configured environment variables to octohost. I patterned them after Heroku's [Config Vars](https://devcenter.heroku.com/articles/config-vars).
 
+It's pretty easy to use:
+
+```
+octohost:/home/git# octo config canary
+/canary/SESSION_SECRET:long-random-looking-string-that-will-not-be-posted
+/canary/SENDGRID_PASSWORD:not-the-password
+/canary/SENDGRID_USERNAME:not-the-username@example.com
+/canary/EMAIL_DESTINATION:not-the-email-address@example.com
+/canary/RACK_ENV:production
+/canary/LANG:en_US.UTF-8
+/canary/BASE_CANARY_PATH:octo
+octohost:/home/git# octo config:set canary/TESTING "This is only a test."
+This is only a test.
+octohost:/home/git# octo config canary
+/canary/SESSION_SECRET:long-random-looking-string-that-will-not-be-posted
+/canary/SENDGRID_PASSWORD:not-the-password
+/canary/SENDGRID_USERNAME:not-the-username@example.com
+/canary/EMAIL_DESTINATION:not-the-email-address@example.com
+/canary/RACK_ENV:production
+/canary/LANG:en_US.UTF-8
+/canary/BASE_CANARY_PATH:octo
+/canary/TESTING:This is only a test.
+octohost:/home/git# octo config:rm canary/TESTING
+
+octohost:/home/git# octo config canary
+/canary/SESSION_SECRET:long-random-looking-string-that-will-not-be-posted
+/canary/SENDGRID_PASSWORD:not-the-password
+/canary/SENDGRID_USERNAME:not-the-username@example.com
+/canary/EMAIL_DESTINATION:not-the-email-address@example.com
+/canary/RACK_ENV:production
+/canary/LANG:en_US.UTF-8
+/canary/BASE_CANARY_PATH:octo
+```
 
 
 I'm pretty happy with how it all turned out.
