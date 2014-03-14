@@ -59,7 +59,8 @@ octohost:/home/git# octo config canary
 /canary/BASE_CANARY_PATH:octo
 ```
 
-
 I'm pretty happy with how it all turned out.
+
+You can see [Canary here](http://canary.octohost.io) - more information on [octohost here](http://www.octohost.io).
 
 NOTE: We're only using octohost to serve really small sites at the moment. The more this works out, the more sites we'll be able to use on it.
