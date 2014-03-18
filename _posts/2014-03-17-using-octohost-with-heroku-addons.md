@@ -14,7 +14,7 @@ octohost has some basic support for [data stores](http://www.octohost.io/data-st
 
 Heroku has amazing support for "[Addons](https://addons.heroku.com/)" - adding a Postgres database is as easy as: `heroku addons:add heroku-postgresql`. Adding MySQL: `heroku addons:add cleardb`. There are Addons that do so many things - and best of all: You don't have to manage them at all. Just add them, and then use them from your app.
 
-After we added the recent ability to specify environment vars for octohost with `[octo config](http://www.octohost.io/octo-cli.html)` - I started thinking:
+After we added the recent ability to specify environment vars for octohost with [octo config](http://www.octohost.io/octo-cli.html) - I started thinking:
 
 What if I deployed an octohost in USE-1 \(where Heroku is located\) - configured some Addons for a non-existant Heroku app - and then used those Addons from octohost?
 
@@ -66,3 +66,8 @@ Give it a try - this gives you:
 1. The ability to discard your app containers at will.
 2. The ability to upgrade your octohost without worrying about your data stores at all.
 3. The ability to use many of the Heroku Addons that exist - and there's a lot of them.
+
+Note that:
+
+1. You don't actually have to use Heroku or their Addons.
+2. You can now run your services outside of octohost and just refer to them via Environment Variables.
