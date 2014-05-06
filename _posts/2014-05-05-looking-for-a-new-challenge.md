@@ -8,7 +8,7 @@ categories:
 
 Last year, after a lot of soul searching, I realized that it was time to move on from [nonfiction](http://www.nonfiction.ca/) - it was time for a change. However when you've founded and built a company over 13 years, moving on isn't so simple, so my business partner and I have been working a for the last few months to simplify and streamline my exit from day-to-day operations.
 
-nonfiction is a great company that I'm proud to have built, they will be in my business partner's capable hands and I couldn't be prouder of the team that we built together.
+nonfiction is a great company that I'm proud to have built, it will be in my business partner's capable hands and I couldn't be prouder of the team that we built together.
 
 As of May 31, 2014 I will no longer be a full time employee of nonfiction, however I will be sticking around for at least one month \(on contract\) to finish up a few projects and tie up some loose ends.
 
