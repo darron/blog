@@ -16,7 +16,7 @@ I've been working a lot with [Docker](https://www.docker.io/), [Chef](http://www
 
 Much of what I've worked on and experimented with is posted on [github](https://github.com/darron) - but some of my best work to date has been around [octohost](http://www.octohost.io) - our Docker based mini-PaaS that's powering an unannounced and almost released product.
 
-Another project I'm extremely proud of is the [Varnish based CDN](https://github.com/darron/frozen-cdn-cookbooks) that I built in early 2012. It was in production and handled 100M hits \(over 3 months\) very well, but when we found Fastly - we switched over and abandoned it.
+Another project I'm extremely proud of is the [Varnish based CDN](https://github.com/darron/frozen-cdn-cookbooks) that I built in early 2012. It was scaling up in production and handled 100M hits over 3 months very well, but when we found Fastly - we switched over and abandoned it.
 
 I build and run internet systems with a focus on enabling your team build and run things.
 
