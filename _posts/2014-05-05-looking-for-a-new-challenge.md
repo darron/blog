@@ -6,7 +6,7 @@ comments: true
 categories:
 ---
 
-Last year, after a lot of soul searching, I realized that it was time to move on from [nonfiction](http://www.nonfiction.ca/) - it was time for a change. However when you've founded and built a company over 13 years, moving on isn't so simple, so my business partner and I have been working a for the last few months to simplify and streamline my exit from day-to-day operations.
+Last year, after a lot of soul searching, I realized that it was time to move on from [nonfiction](http://www.nonfiction.ca/) - it was time for a change. However when you've founded and built a company over 12 years, moving on isn't so simple, so my business partner and I have been working a for the last few months to simplify and streamline my exit from day-to-day operations.
 
 nonfiction is a great company that I'm proud to have built, it will be in my business partner's capable hands and I couldn't be prouder of the team that we built together.
 
