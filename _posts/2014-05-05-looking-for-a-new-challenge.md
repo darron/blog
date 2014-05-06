@@ -12,10 +12,12 @@ As of May 31, 2014 I will no longer be a full time employee of nonfiction, howev
 
 In July, I am looking for a new challenge - somewhere where I can learn and build new things, improve existing things, and keep my brain stretched.
 
-I've been working a lot with [Docker](https://www.docker.io/), [Chef](http://www.getchef.com/), "the cloud" \(Amazon, Digital Ocean, Rackspace, etc\), [Packer](http://www.packer.io/), [Heroku](http://www.heroku.com/) and other similar tools over the last few years - so I'm going to be looking towards challenges that involve those technologies, but I'm pretty open to anything involving the web and distributed systems.
+I've been working a lot with [Docker](https://www.docker.io/), [Chef](http://www.getchef.com/), "the cloud" \(Amazon, Digital Ocean, Rackspace, etc\), [Packer](http://www.packer.io/), [Vagrant](http://www.vagrantup.com/), [Cloud Foundry](http://www.gopivotal.com/platform-as-a-service/pivotal-cf), [Heroku](http://www.heroku.com/) and other similar tools over the last few years - so I'm looking towards challenges that involve some of those technologies, but I'm pretty open to anything involving the web and distributed systems.
 
 Much of what I've worked on and experimented with is posted on [github](https://github.com/darron) - but some of my best work to date has been around [octohost](http://www.octohost.io) - our Docker based mini-PaaS that's powering an unannounced and almost released product.
 
 Another project I'm extremely proud of is the [Varnish based CDN](https://github.com/darron/frozen-cdn-cookbooks) that I built in early 2012. It was in production and handled 100M hits \(over 3 months\) very well, but when we found Fastly - we switched over and abandoned it.
+
+I build and run internet systems with a focus on enabling your team build and run things.
 
 If you're looking for somebody like me, please [send me a note](mailto:darron@froese.org) and let's chat.
