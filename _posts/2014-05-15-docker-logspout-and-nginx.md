@@ -14,7 +14,7 @@ A log router for Docker container output that runs entirely inside Docker. It at
 
 As soon as I saw it, I knew that I had to see how I could get the logs out of my Docker containers and into something like [Papertrail](https://papertrailapp.com).
 
-With our current Docker setup, we see the logs come into the HTTP proxy server and then out - but there wasn't a great way to see the logs from inside each Docker container. We have servers with a few dozen containers - we were really missing the visiblity that comes with being able to see the logs.
+With our current Docker setup, we see the logs come into the HTTP proxy server and then out - but there wasn't a great way to see the logs from inside each Docker container. We have servers with a few dozen containers - we were really missing the visibility that comes with being able to see the logs easily.
 
 nginx plus allows you to log to a [remote syslog](http://nginx.org/en/docs/http/ngx_http_log_module.html) destination, but we're not using it as it would be cost prohibitive with our setup. Some [online](http://stackoverflow.com/questions/22541333/have-nginx-access-log-and-error-log-log-to-stdout-and-stderr-of-master-process) [posts](http://tastehoneyco.com/blog/log-nginx-to-stdout-and-stderr-when-run/) that talk about "how" to do it, either want you to run another daemon or log tailing utility. That seems a little kludgy - I don't want to manage more running processes.
 
