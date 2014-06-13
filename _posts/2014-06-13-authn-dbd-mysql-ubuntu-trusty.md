@@ -6,11 +6,11 @@ comments: true
 categories:
 ---
 
-I'm converting a number of old websites that were using mod_auth_mysql - which doesn't work anymore - and was having a hard time finding clear, concise and working information.
+I'm converting a number of old websites that were using mod\_auth\_mysql - which doesn't work anymore - and was having a hard time finding clear, concise and working information.
 
 First off - *DO NOT INSTALL libapache2-mod-auth-mysql* - it doesn't work. I'm not even sure why it's in Ubuntu anymore, it doesn't even work with Apache 2.4.
 
-Here's how to do get Apache 2.4 / mod_authn_dbd and MySQL to play nice together:
+Here's how to do get Apache 2.4 / mod\_authn\_dbd and MySQL to play nice together:
 
 ```
 apt-get install apache2 apache2-utils
@@ -20,7 +20,7 @@ apt-get install libaprutil1-dbd-mysql
 
 Create a MySQL user that you can query your databases with.
 
-Once that's done, let's setup the global dbd_mysql configuration in this file `/etc/apache2/conf-available/dbd_mysql.conf`:
+Once that's done, let's setup the global dbd\_mysql configuration in this file `/etc/apache2/conf-available/dbd_mysql.conf`:
 
 ```
 DBDriver mysql
@@ -66,8 +66,6 @@ CREATE TABLE `password` (
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 ```
 
-Insert a user and password into the table.
+Insert a user and password into the table, then `service apache2 restart` and you're ready to go.
 
-Then `service apache2 restart` and you're ready to go.
-
-Hopefully this helps - I know I was pretty frustrated this afternoon with all the mis-information I found online.
+Hopefully this helps - I know I was pretty frustrated this afternoon with all the misinformation I found online.
