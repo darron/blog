@@ -1,0 +1,76 @@
+==================================================================
+https://keybase.io/darron
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://blog.froese.org
+  * I am darron (https://keybase.io/darron) on keybase.
+  * I have a public key with fingerprint 9B90 C6FA 8137 6CBD 269F  FF8E 84D4 A686 885D C772
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.4.7"
+        },
+        "key": {
+            "fingerprint": "9b90c6fa81376cbd269fff8e84d4a686885dc772",
+            "host": "keybase.io",
+            "key_id": "84D4A686885DC772",
+            "uid": "2125474108a28b1d36030e29435fc800",
+            "username": "darron"
+        },
+        "merkle_root": {
+            "ctime": 1402767571,
+            "hash": "39ed2c2b73fa781d3969f50319562e4f0d32cabf5f3230162c929a30af7d5cce4641c751847d5370f8bb994d1688dceb1b540a064612bc2da50801572684927d",
+            "seqno": 18078
+        },
+        "service": {
+            "hostname": "blog.froese.org",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1402767753,
+    "expire_in": 157680000,
+    "prev": "fd0f2ea1df367f7e6e1990d4090e78e8a36b7534ac538ba3eae7da7dda2046df",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.20 (Darwin)
+
+owFVkm9oVWUcx++dlVYWYbViWzKOQkrr9vw7z/OcGZltiL3IF0sDZfP2/L077u6e
+u3Pu7lzbQjKjSzQlEVt/DIImiH9SCFkIWUhhk5BhCok4kSRRKuYL8UXUc+aifHee
+83x+39/3+/s9Ox+al6nLvn12/J13u36Is5PXZObVT2q1IU9GetBrHfJUMTSlSvpV
+Er3Ga/V6zKAUicmFUXMp0ia3OWmeY1q8qomTMCo5CuRIjnkjLSmeFtuwVDBxOQ5T
+LS+QAVDUCg4xo0pqRANrLTecaCIop5z7WjGGnGR3lFTu6urNauZD7f5y0k5W3eHb
+2+7w/bMXCCKfMAIBF4hLqDEFGBgUEOxbxQFIwcTEc5G0iGPn2rntNXFP0eTjKJqN
+rCphCkACEKPMZ9D5EUm3K8GB0UghybAVjLsGgYvgAwwDnyJDLNAYKSGtbzHCAFKk
+AhQIDIRl2lfKEEqgYj7kxJ0xA5ZLGQREQ5dFKyOh9AkQgBIKkVRICx9wAH2GKCcB
+YtoFSExfKXLmOGB8JD3G1VCZ1HY6s7loshgVcjaOjJtdFBdcWTmOKpGKiu6yu1Ip
+t6axK4PlFB4wMn9wTicvw5J2S/v/VqFD7x4J83GLZ7aUw9jkw5TwGXXjBSDtY6pO
+02pgkRFQW0yZZYYaGARAExAAw9zGBabSqRChfMylwEYYpgXTWiBAqLb/BQ2cT1Fw
+kklYKIlKf2y8kVq26Z5Mti5z37116bPNPHD/I/++5eKaBZna9X7/WDb5/Y0PJi/v
+nt6u33p/R9PDX35V3N55ofDN870bTu5ff6NhbfXxje2fnvviyb0njv+49PRFsKbh
+0PmFm7ZufnDJmdsrFr/0cn6qq2e46fCqldc3iI4D+vPDU7uOtRXqvfEdW75ddur0
+tcWTC8aeujV/3vShvo4X/oKdExtvmqT++9U7o4xUZKZRX5qZ+PXR0V+mz0wu2rVt
+7M+F5678fPOV0d3D5y+2df0WDE819Y2/l1/9TOPVhrH1rw2AA0dOes3VzsZn99zK
+lT/mH3322NG6ZX/P7H3xbMe+5xZ9+PoTK5efWhfvmx7qfLNrz9UlIzX0dWv+xlZy
+ZGziu4E/Dq4YvV3ff/ynp7fNj/4B
+=HlGX
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/darron
+
+==================================================================
