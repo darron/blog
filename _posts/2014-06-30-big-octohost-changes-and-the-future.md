@@ -36,7 +36,7 @@ As we've been using it, we've also been thinking about ways to make it better:
 A number of these have been 'accomplished', but we've done a number of large changes to help to enable the next phases of octohost's lifecycle.
 
 1. We replaced the Hipache proxy with Openresty which immediately sped everything up and allowed us to use Lua to extend the proxy's capabilities.
-2. We moved from [etcd]() to [Consul](http://www.consul.io) to store and distribute our persistent configuration data. That change allowed us to make use of Consul's Services and Health Check features.
+2. We moved from [etcd](https://github.com/coreos/etcd) to [Consul](http://www.consul.io) to store and distribute our persistent configuration data. That change allowed us to make use of Consul's Services and Health Check features.
 3. We removed the [Tentacles container](https://github.com/octohost/tentacles) which used Ruby, Sinatra and Redis to store a website's endpoint. Due to how it was hooked up to nginx, it was queried for every hit so that it knew which endpoing to route the request to. The data model was also limited to a single endpoint and required a number of moving parts. I like less moving parts - removing it was a win in many ways.
 4. We refactored the `octo` command and the gitreceive script which enabled the launching of multiple containers for a single site.
 5. We added a configuration flag to use a private registry, so that an image only has to be built once and can be pulled onto other members of the cluster quickly and easily.
