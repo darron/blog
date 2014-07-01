@@ -37,11 +37,11 @@ A number of these have been 'accomplished', but we've done a number of large cha
 
 1. We replaced the Hipache proxy with Openresty which immediately sped everything up and allowed us to use Lua to extend the proxy's capabilities.
 2. We moved from [etcd](https://github.com/coreos/etcd) to [Consul](http://www.consul.io) to store and distribute our persistent configuration data. That change allowed us to make use of Consul's Services and Health Check features.
-3. We removed the [Tentacles container](https://github.com/octohost/tentacles) which used Ruby, Sinatra and Redis to store a website's endpoint. Due to how it was hooked up to nginx, it was queried for every hit so that it knew which endpoing to route the request to. The data model was also limited to a single endpoint and required a number of moving parts. I like less moving parts - removing it was a win in many ways.
+3. We removed the [tentacles container](https://github.com/octohost/tentacles) which used Ruby, Sinatra and Redis to store a website's endpoint. Due to how it was hooked up to nginx, it was queried for every hit so that it knew which endpoing to route the request to. The data model was also limited to a single endpoint and required a number of moving parts. I like less moving parts - removing it was a win in many ways.
 4. We refactored the `octo` command and the gitreceive script which enabled the launching of multiple containers for a single site.
 5. We added a configuration flag to use a private registry, so that an image only has to be built once and can be pulled onto other members of the cluster quickly and easily.
 6. We added a plugin architecture for the `octo` command, and the first plugin was for [MySQL](https://github.com/octohost/mysql-plugin) user and database creation.
-7. We replaced Tentacles with the [octoconfig](htts://github.com/octohost/octoconfig/) gem that pulls the Service and configuration data out of Consul and writes an nginx config file. The gem should be extensible enough that we can re-use it for other daemons as needed.
+7. We replaced tentacles with the [octoconfig](https://github.com/octohost/octoconfig/) gem that pulls the Service and configuration data out of Consul and writes an nginx config file. The gem should be extensible enough that we can re-use it for other daemons as needed.
 
 So what are we working on going forward?
 
