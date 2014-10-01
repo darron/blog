@@ -20,7 +20,7 @@ After a couple of months, I had to abandon the effort - I stopped emailing them 
 
 In May of 2014 I picked up the effort again and in June - it was finally done. We had enlisted [DNSimple](https://dnsimple.com/) and their Concierge service - and it had finally been completed.
 
-On July 9th I emailed a customer of [ours](http://www.nonfiction.ca/) and asked them to change their domain name server records - unfortunately their registrar was also [Aloak - the world domain registrar ever](http://www.aloak.ca/).
+On July 9th I emailed a customer of [ours](http://www.nonfiction.ca/) and asked them to change their domain name server records - unfortunately their registrar was also [Aloak - the worst domain registrar ever](http://www.aloak.ca/).
 
 As I had previously experienced, the domain name changes that had been requested just weren't done.
 
@@ -34,7 +34,7 @@ Today - we got this response:
 
 Over 3 months to change some domain name records - and it still hasn't been done.
 
-Hey [CIRA](http://www.cira.ca/)? Can you guys do anything about this?
+Hey [CIRA](http://www.cira.ca/) - they're "CIRA Certified"? Can you guys do anything about this?
 
 I would transfer the domain name - but the last time it took approximately 6 months.
 
