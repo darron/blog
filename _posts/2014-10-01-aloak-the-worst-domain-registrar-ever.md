@@ -6,6 +6,8 @@ comments: true
 categories:
 ---
 
+TLDR: If you're having problems with a .ca domain name, reach out to [CIRA](http://www.cira.ca/) - they may be able to help!
+
 Late last year, I started to move 4 domain names off of Aloak - a registrar I had used for years. I was concerned:
 
 1. They weren't responsive to any request I had made in the last few years. I always had to ask and re-ask and continue to ask for small changes.
@@ -39,3 +41,5 @@ Hey [CIRA](http://www.cira.ca/) - they're "CIRA Certified"? Can you guys do anyt
 I would transfer the domain name - but the last time it took approximately 6 months.
 
 Any ideas for my client?
+
+Update: CIRA was able to help my client change their domain name records and transfer the domain. Thanks everybody!
