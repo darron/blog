@@ -66,8 +66,10 @@ Now each node in the cluster, even ones that don't have a specific entry in the 
 
 Each node runs a [service check](https://www.consul.io/docs/agent/checks.html) every 60 seconds - we chose something simple that will always report true.
 
-`consul exec` is also pretty fast.
+`consul exec` is also really fast.
 
 Running `w` across a several hundred node cluster takes approximately 5 seconds with `consul exec` - running it with our legacy automation tool takes about 90 seconds in comparison.
 
 I'm not sure if we're going to use it yet, but the possibilities with `consul exec` look pretty exciting to me.
+
+**NOTE:** There are some legitimate security concerns with `consul exec` - right now it's pretty open - but they're [looking at adding ACLs to it](https://github.com/hashicorp/consul/issues/532).
