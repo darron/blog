@@ -72,4 +72,4 @@ Running `w` across a several hundred node cluster takes approximately 5 seconds 
 
 I'm not sure if we're going to use it yet, but the possibilities with `consul exec` look pretty exciting to me.
 
-**NOTE:** There are some legitimate security concerns with `consul exec` - right now it's pretty open - but they're [looking at adding ACLs to it](https://github.com/hashicorp/consul/issues/532). It can also be completely disabled with [disable_remote_exec](https://www.consul.io/docs/agent/options.html#disable_remote_exec) - that may fit your risk profile until it's been tightened up a bit more.
+**NOTE:** There are some legitimate security concerns with `consul exec` - right now it's pretty open - but they're [looking at adding ACLs to it](https://github.com/hashicorp/consul/issues/532). It can also be completely disabled with [disable\_remote\_exec](https://www.consul.io/docs/agent/options.html#disable_remote_exec) - that may fit your risk profile until it's been tightened up a bit more.
