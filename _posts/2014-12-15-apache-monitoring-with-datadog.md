@@ -8,9 +8,9 @@ categories:
 
 At [nonfiction](http://www.nonfiction.ca), we hosted the sites we built using a number of different hosting providers. The vast majority of the sites are hosted on some Rackspace Cloud instances - they have been very reliable for our workloads.
 
-One of those servers had been acting up recently and had been becoming unresponsive for no obvious reason, so I took a quick look one morning when I had been woken up at 5AM.
+One of those servers had been acting up recently and had been becoming unresponsive for no obvious reason, so we took a quick look one morning when we had been woken up at 5AM.
 
-Watching `top` for a moment, I noticed that some Apache processes were getting very large. Some of them were using between 500MB and 1GB of RAM - that's not within the normal usage patterns.
+Watching `top` for a moment, we noticed that some Apache processes were getting very large. Some of them were using between 500MB and 1GB of RAM - that's not within the normal usage patterns.
 
 The first thing we did was set some reasonable limits on how large the Apache + mod\_php processes could get - `memory_limit 256MB`. Since the Apache error logs are all aggregated with [Papertrail](https://papertrailapp.com/), we setup an alert that sent a message to the nonfiction [Slack](https://slack.com/) room if any processes were killed. Those alerts look like this:
 
@@ -32,7 +32,7 @@ Over the last week, we have had a good amount of data to make some changes to ho
 
 Using Datadog's built in [process monitoring function](http://docs.datadoghq.com/integrations/process/) and this graph, we gained some insight into how things were acting overall, but not enough detailed information into exactly which sites were the memory hogs.
 
-In order to close that gap, I wrote [another small Ruby script](https://gist.github.com/darron/dfcaa505ae078a76a08f) and between `ps` and [`/server-status`](http://httpd.apache.org/docs/2.2/mod/mod_status.html) I had all the information I needed:
+In order to close that gap, I wrote [another small Ruby script](https://gist.github.com/darron/dfcaa505ae078a76a08f) and between `ps` and [`/server-status`](http://httpd.apache.org/docs/2.2/mod/mod_status.html) we had all the information we needed:
 
 <img src="http://shared.froese.org/2014/k1gis-19-41.jpg" />
 
