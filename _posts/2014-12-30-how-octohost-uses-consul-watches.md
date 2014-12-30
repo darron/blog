@@ -18,9 +18,9 @@ Last week I updated octohost to improve those steps for a few reasons:
 
 1. If we changed any of the configuration variables, we had to manually restart the container before it would be picked up.
 2. If a container dies unexpectedly, we weren't automatically updating the nginx configuration to reflect the actual state of the application.
-3. Our nginx configuration file was being built by a [gem I created](https://github.com/octohost/octoconfig) and wanted to retire in place of [Consul Template](https://github.com/hashicorp/consul-template). This monolithic file was very inflexible and I wanted to make it easier to update.
+3. Our nginx configuration file was being built by a [gem I created](https://github.com/octohost/octoconfig) and wanted to retire in place of [Consul Template](https://github.com/hashicorp/consul-template). The monolithic file it generated was very inflexible and I wanted to make it easier to update.
 
-For #1, when a site is pushed, I'm registering a "watch" for a specific location in Consul's [Key Value](https://www.consul.io/docs/agent/http.html#kv) space - `octohost/$container-name`. That kind of watch looks like this example:
+For #1, when a site is pushed to octohost, I'm registering a "watch" for a specific location in Consul's [Key Value](https://www.consul.io/docs/agent/http.html#kv) space - `octohost/$container-name`. That kind of watch looks like this example:
 
 ```
 {
@@ -63,8 +63,8 @@ All of that was done by the Consul watch - it fires whenever it detects a change
 Consul watches are pretty cool. If you're adding one to your Consul cluster, remember a few things:
 
 1. I've used separate json files for each watch. That can be done because we're telling Consul to look in an entire directory for configuration files, the [-config-dir](https://www.consul.io/docs/agent/options.html#_config_dir) option.
-2. When you add a new file to the config-dir, you need to tell Consul to [reload](https://www.consul.io/docs/commands/reload.html) so it can read it.
-3. As of this moment, Consul Template can only do a single pass to populate the values - so the templates need to be pretty simple. We have worked around some of the limitations by simplifying our own templates and doing our own first pass to pre-populate things that are needed. Thanks to [@bryanlarsen](https://github.com/bryanlarsen) and [@sethvargo](https://github.com/sethvargo) who discussed a workaround [here](https://github.com/hashicorp/consul-template/issues/88).
+2. When you add a new file to the config-dir, you need to tell Consul to [reload](https://www.consul.io/docs/commands/reload.html) so it can read and activate it. If there's a syntax error or it can't load the watch, it notes that in the logs - so keep an eye on them when you're doing this.
+3. As of this moment and because it's brand new software, Consul Template can only do a single pass to populate the values - so the templates need to be pretty simple. We have worked around those limitations by doing our own first pass to pre-populate values that are needed. Thanks to [@bryanlarsen](https://github.com/bryanlarsen) and [@sethvargo](https://github.com/sethvargo) who discussed a workaround [here](https://github.com/hashicorp/consul-template/issues/88).
 
 I think I've just scratched the surface with how to use Consul watches effectively and they have helped to simplify [octohost](https://www.octohost.io). I'm looking forward to finding new and better uses for them.
 
