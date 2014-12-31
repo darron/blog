@@ -38,7 +38,7 @@ We're telling Consul to watch the `octohost/html` keys and anytime they change, 
 
 <p><script type="text/javascript" src="https://asciinema.org/a/15078.js" id="asciicast-15078" async></script></p>
 
-Pretty nice eh? You can add keys or change values and the watch knows to run the handler to stop and start the container. NOTE: Right now, deleting a key doesn't do what you'd expect, but [the Consul team knows about this and is trying to solve it properly](https://github.com/hashicorp/consul/issues/195).
+Pretty nice eh? You can add keys or change values and the watch knows to run the handler to stop and start the container. NOTE: Right now, deleting a key doesn't do what you'd expect, but [the Consul team knows about this and is trying to solve it properly](https://github.com/hashicorp/consul/issues/195). [![hashicorp/consul/issues/195](https://github-shields.cfapps.io/github/hashicorp/consul/issues/195.svg)](https://github-shields.cfapps.io/github/hashicorp/consul/issues/195)
 
 For #2 and #3, we look at the Consul Service catalog we are [populating here](https://github.com/octohost/octohost/blob/30d3b9e08ef0fa95ed8f90974c9b1b1ef18b8e07/bin/octo#L373-L406) and register a different type of watch - a [service watch](https://www.consul.io/docs/agent/watches.html#service). An example service watch looks like this:
 
@@ -64,7 +64,7 @@ Consul watches are pretty cool. If you're adding one to your Consul cluster, rem
 
 1. I've used separate json files for each watch. That can be done because we're telling Consul to look in an entire directory for configuration files, the [-config-dir](https://www.consul.io/docs/agent/options.html#_config_dir) option.
 2. When you add a new file to the config-dir, you need to tell Consul to [reload](https://www.consul.io/docs/commands/reload.html) so it can read and activate it. If there's a syntax error or it can't load the watch, it notes that in the logs - so keep an eye on them when you're doing this.
-3. As of this moment and because it's brand new software, Consul Template can only do a single pass to populate the values - so the templates need to be pretty simple. We have worked around those limitations by doing our own first pass to pre-populate values that are needed. Thanks to [@bryanlarsen](https://github.com/bryanlarsen) and [@sethvargo](https://github.com/sethvargo) who discussed a workaround [here](https://github.com/hashicorp/consul-template/issues/88).
+3. As of this moment and because it's brand new software, Consul Template can only do a single pass to populate the values - so the templates need to be pretty simple. We have worked around those limitations by doing our own first pass to pre-populate values that are needed. Thanks to [@bryanlarsen](https://github.com/bryanlarsen) and [@sethvargo](https://github.com/sethvargo) who discussed a workaround [here](https://github.com/hashicorp/consul-template/issues/88). [![hashicorp/consul-template/issues/88](https://github-shields.cfapps.io/github/hashicorp/consul-template/issues/88.svg)](https://github-shields.cfapps.io/github/hashicorp/consul-template/issues/88)
 
 I think I've just scratched the surface with how to use Consul watches effectively and they have helped to simplify [octohost](https://www.octohost.io). I'm looking forward to finding new and better uses for them.
 
