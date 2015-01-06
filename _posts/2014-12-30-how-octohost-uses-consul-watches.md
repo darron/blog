@@ -38,9 +38,11 @@ We're telling Consul to watch the `octohost/html` keys and anytime they change, 
 
 <p><script type="text/javascript" src="https://asciinema.org/a/15078.js" id="asciicast-15078" async></script></p>
 
-Pretty nice eh? You can add keys or change values and the watch knows to run the handler to stop and start the container. NOTE: Right now, deleting a key doesn't do what you'd expect, but [the Consul team knows about this and is trying to solve it properly](https://github.com/hashicorp/consul/issues/195). [![hashicorp/consul/issues/195](https://github-shields.cfapps.io/github/hashicorp/consul/issues/195.svg)](https://github-shields.cfapps.io/github/hashicorp/consul/issues/195)
+Pretty nice eh? You can add keys or change values and the watch knows to run the handler to stop and start the container.
 
-NOTE: This has been disabled because of [this issue](https://github.com/hashicorp/consul/issues/571) [![hashicorp/consul/issues/571](https://github-shields.cfapps.io/github/hashicorp/consul/issues/571.svg)](https://github-shields.cfapps.io/github/hashicorp/consul/issues/571). Hopefully I can re-enable it at some point - but not right now.
+NOTE: Before version 0.5, deleting a key doesn't do what you'd expect, but [the Consul team knows about this and has posted a fix.](https://github.com/hashicorp/consul/pull/577)
+
+NOTE: This has been disabled because of [this issue](https://github.com/hashicorp/consul/issues/571): [![hashicorp/consul/issues/571](https://github-shields.cfapps.io/github/hashicorp/consul/issues/571.svg)](https://github-shields.cfapps.io/github/hashicorp/consul/issues/571).
 
 For #2 and #3, we look at the Consul Service catalog we are [populating here](https://github.com/octohost/octohost/blob/30d3b9e08ef0fa95ed8f90974c9b1b1ef18b8e07/bin/octo#L373-L406) and register a different type of watch - a [service watch](https://www.consul.io/docs/agent/watches.html#service). An example service watch looks like this:
 
