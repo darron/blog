@@ -26,19 +26,19 @@ During the build phase you will need to setup and configure these items:
 
 Packer actually takes care of automating most of of this - but there's lots of things going on. At the end of the build, it's critically important to remember:
 
-1. The Chef client and node from the AMI you just built needs to be removed from the Chef server. ([Packer does this for you](https://www.packer.io/docs/provisioners/chef-client.html#skip_clean_client)).
-2. You need to make sure to remove the Chef client.pem, validation.pem and first-boot.json - they're going to need to be re-created when it boots again.
+1. The Chef client and node from the AMI you just built needs to be removed from the Chef server. ([Packer does this for you.](https://www.packer.io/docs/provisioners/chef-client.html#skip_clean_client))
+2. You need to make sure to remove the Chef client.pem, client.rb, validation.pem and first-boot.json - they're going to need to be re-created when it boots again.
 3. Some other software may have saved state you want to remove - for example - [we](https://www.datadoghq.com/) disable the [Datadog Agent](http://docs.datadoghq.com/guides/basic_agent_usage/) and remove all [Consul](https://www.consul.io/) server state.
 
 During the Running phase, when you're actually using the AMI image you built, you will need to setup and configure:
 
 1. A [Launch Configuration](http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/WorkingWithLaunchConfig.html) which details AMI, Instance type, keys, IAM Profile and Security Groups - among some other things.
-2. An [Auto Scaling Group](http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/creating-your-auto-scaling-groups.html) which uses the Launch Configuration we just created and adds desired capacity, availability zones, auto-scaling cookdowns and some [user-data](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html). The primary goal for the user-data is to re-connect the new Instance to the Chef server so that provisioning can complete. [Example user-data](https://gist.github.com/darron/2cca61c563820186ea48).
+2. An [Auto Scaling Group](http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/creating-your-auto-scaling-groups.html) which uses the Launch Configuration we just created and adds desired capacity, availability zones, auto-scaling cooldowns and some [user-data](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html). The primary goal for the user-data is to re-connect the new Instance to the Chef server so that provisioning can complete. [Example user-data](https://gist.github.com/darron/2cca61c563820186ea48).
 3. In order to scale your group up, you'll need to create a [Scaling Policy](http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/as-scale-based-on-demand.html#as-scaling-policies) that details *how* you will be scaling the group.
-4. A Cloudwatch [Metric Alarm](http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/policy_creating.html) tells your Scaling Policy when you enact the change.
+4. A Cloudwatch [Metric Alarm](http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/policy_creating.html) tells your Scaling Policy when to enact the change.
 5. To scale your group down, you need to create another Scaling Policy that tells the group how to accomplish that.
 6. A final Metric Alarm details the conditions that will tell your Down Scaling Policy when to remove instances.
-7. When any of these events happen, you may wish to be notified. [Amazon SNS](http://aws.amazon.com/sns/) is a great service that can [notify you when that occurs](http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/ASGettingNotifications.html). We are sending the notifications to an [Amazon SQS](http://aws.amazon.com/sqs/) queue so that any instances that are scaled down can be easily removed from the Chef server.
+7. When any of these events happen, you should be notified. [Amazon SNS](http://aws.amazon.com/sns/) is a great service that can [notify you when that occurs](http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/ASGettingNotifications.html). We are sending the notifications to an [Amazon SQS](http://aws.amazon.com/sqs/) queue so that any instances that are scaled down can be easily removed from the Chef server.
 
 All of these items can be configured using the [Amazon Management Console](http://aws.amazon.com/console/) or [EC2 API tools](http://docs.aws.amazon.com/AWSEC2/latest/CommandLineReference/Welcome.html). The Management Console is easy to use - but the API tools can be automated so that you don't have to spend as much time doing it:
 
@@ -57,12 +57,7 @@ Creating SNS Notification: Success
 
 Once you've created all of those items, the Auto Scaling Group will have automatically started up and should be serving your traffic.
 
-You can easily [test your scaling policy](http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/policy_creating.html#policy-creating-scalingpolicies-console) - I use `stress` to trigger the Metric Alarm:
-
-```
-apt-get install -y stress
-stress -c 2
-```
+You can easily [test your scaling policy](http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/policy_creating.html#policy-creating-scalingpolicies-console) - I use `stress` to trigger the Metric Alarm: `apt-get install -y stress && stress -c 2`
 
 Stressing the CPUs can trigger an Auto Scaling event, which adds the amount of servers you have chosen to your group. After they've been added and the cooldown you specified earlier has passed, you can stop stressing the servers and they should scale back down.
 
