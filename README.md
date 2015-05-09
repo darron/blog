@@ -1,9 +1,9 @@
 My blog
 =======
 
-Located at [http://blog.froese.org/](http://blog.froese.org)
+Located at [https://blog.froese.org/](https://blog.froese.org)
 
-Deployed on octohost using Caddy and Docker.
+Deployed on [octohost](https://www.octohost.io) using [Caddy](https://caddyserver.com/) and [Docker](https://www.docker.com/).
 
 The site is built when it's deployed and served using Caddy behind Docker:
 
