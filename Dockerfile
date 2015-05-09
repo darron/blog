@@ -1,15 +1,16 @@
-FROM octohost/jekyll-nginx
+FROM octohost/jekyll
 
 ENV LANGUAGE en_US.UTF-8
 ENV LANG en_US.UTF-8
 ENV LC_ALL en_US.UTF-8
 
+RUN curl -sLO https://github.com/mholt/caddy/releases/download/v0.6.0/caddy_linux_amd64.zip && unzip caddy_linux_amd64.zip && mv caddy /usr/bin/caddy && chmod 755 /usr/bin/caddy && rm -rf caddy*
+
 WORKDIR /srv/www
 
 ADD . /srv/www/
-ADD ./nginx.conf /etc/nginx/nginx.conf
 RUN jekyll build
 
-EXPOSE 80
+EXPOSE 2015
 
-CMD nginx
+CMD caddy
