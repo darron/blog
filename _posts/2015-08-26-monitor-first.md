@@ -6,11 +6,12 @@ comments: true
 categories:
 ---
 
-I had the privilege to present today at Devopsdays Chicago. I condensed a proposed 30 minute talk down to 20 slides in an Ignite format. There's way more things I could say about Consul - but 5 minutes is just not enough time.
+I had the privilege to present today at [Devopsdays Chicago](http://www.devopsdays.org/events/2015-chicago/program/). I condensed a proposed 30 minute talk down to 20 slides in an Ignite format. There's way more things I could say about Consul - but 5 minutes is just not enough time.
 
 Below the slides, I've placed the transcript of what I had planned to say - hopefully the YouTube upload will be posted shortly.
 
 <script async class="speakerdeck-embed" data-id="6735527fdff04130903f2eabee3e9b52" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
 
 1. I don’t know about many of you, but before I started working at Datadog, even though I loved monitoring, I monitored my boxes at the END of a project. Build the thing. Test the thing. Put it into prod. Oh yeah - monitor some of the things - and write the docs.
 
