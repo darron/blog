@@ -10,6 +10,10 @@ I had the privilege to present today at [Devopsdays Chicago](http://www.devopsda
 
 Below the slides, I've placed the transcript of what I had planned to say - hopefully the YouTube upload will be posted shortly.
 
+[Slides at Speakerdeck](https://speakerdeck.com/darron/monitoring-as-a-first-step-to-a-new-service)
+
+[Video on YouTube](https://www.youtube.com/watch?v=bN4JrORYPvk)
+
 <script async class="speakerdeck-embed" data-id="6735527fdff04130903f2eabee3e9b52" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 
