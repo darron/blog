@@ -56,4 +56,4 @@ And I'm looking forward to the next 80 days of growing, learning and getting bet
 
 I have a lifetime to learn new things - and I'm just getting started with Go.
 
-Push past the fear - it's worth it.
+Push through the fear - leave it behind - it's worth it.
