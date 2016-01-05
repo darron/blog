@@ -50,7 +50,7 @@ Because 80 short days ago, I had just picked up a new set of tools.
 
 80 days later, [we've](https://www.datadoghq.com/) deployed 3 of my creations into production where they perform their duty quite well.
 
-80 days layer, my newest project is being built with unit and integration tests from the start.
+80 days later, my newest project is being built with unit and integration tests from the start.
 
 And I'm looking forward to the next 80 days of growing, learning and getting better at my craft.
 
