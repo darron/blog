@@ -8,7 +8,7 @@ categories:
 
 I had the pleasure to [present this at Scale14x](https://www.socallinuxexpo.org/scale/14x/presentations/service-discovery-cloud) in Pasadena, California.
 
-I've embedded the slides below - hopefully I get the YouTube link shortly so that I can add tha - it's got lots of extra information I didn't put on the slides.
+I've embedded the slides below - hopefully I get the YouTube link shortly so that I can add that - it's got lots of extra information I didn't put on the slides.
 
 [Slides at Speakerdeck](https://speakerdeck.com/darron/service-discovery-in-the-cloud)
 
