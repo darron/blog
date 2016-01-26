@@ -47,7 +47,7 @@ An example Consul watch would look like this:
 }
 ```
 
-All of the commands we have used - example version of each are [located here](https://github.com/DataDog/kvexpress/blob/master/docs/cli.md).
+All of the commands we have used - and example versions of each are [located here](https://github.com/DataDog/kvexpress/blob/master/docs/cli.md).
 
 Here's another quick demo of how it works in **ad-hoc** mode.
 
