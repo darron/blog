@@ -16,6 +16,6 @@ I've embedded the slides and source code below:
 
 [kvexpress source code](https://github.com/DataDog/kvexpress)
 
-YouTube link will be added as soon as I have it.
+Video from the talk is [posted on the USENIX website](https://www.usenix.org/conference/srecon16/program/presentation/froese).
 
 <script async class="speakerdeck-embed" data-id="f6d76c8f31bb428c85e3463f84ae57b7" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
