@@ -1,0 +1,30 @@
+baseurl: https://blog.froese.org
+disablePathToLower: true
+languageCode: en-us
+title: Darron Froese
+theme: "hyde-y"
+paginate: 10
+paginatePath: "page"
+languageCode: "en-EN"
+metaDataFormat: "yaml"
+permalinks:
+  post: "/:year/:month/:day/:slug/"
+  code: "/:slug/"
+taxonomies:
+  tag: "tags"
+  topic: "topics"
+author:
+  name: "Darron Froese"
+  email: "darron@froese.org"
+params:
+  brand: Darron Froese
+  topline: System administration, tricks and tips from an old school web-hacker.
+  sidebar: "left"
+  home: "Home"
+  googleAnalytics: "UA-12346486-4"
+  github: "darron"
+  linkedin: "darronfroese"
+  twitter: "darron"
+  rss: true
+copyright: "(c) 2016 Darron Froese."
+...

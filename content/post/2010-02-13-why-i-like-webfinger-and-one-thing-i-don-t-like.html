@@ -1,0 +1,23 @@
+---
+date: 2010-02-13T00:00:00Z
+published: true
+title: why I like webfinger, and one thing I don't like
+url: /2010/02/13/why-i-like-webfinger-and-one-thing-i-don-t-like/
+---
+
+<p>I like webfinger for a couple/few reasons:</p>
+<p>1. It reminds me of <a href="http://kb.iu.edu/data/aasp.html" target="_blank">finger</a> - which was <a href="http://www.bluesnews.com/cgi-bin/finger.pl?id=1" target="_blank">cool</a>. Sort of an old school twitter/blog before the web.</p>
+<p>2. It got me using OpenID again, which I've had an account for forever but:</p>
+<ol>
+<li>I could never remember which browser I installed the certificate in.</li>
+<li>I could never remember the URL.</li>
+</ol>
+<p>3. It can help to group a person's online identity together - at least the parts that you want to show.</p>
+<p>But there's one relatively minor item I don't like:</p>
+<p><a href="http://froese.org/.well-known/host-meta" target="_blank">GET /.well-known/host-meta</a></p>
+<p>Aargh - a .dotfile directory just annoys me. Yes I know it's <a href="http://code.google.com/p/webfinger/wiki/WebFingerProtocol" target="_blank">supposed</a> to be <a href="http://tools.ietf.org/html/draft-hammer-hostmeta-05" target="_blank">virtual</a>. But those kind of directories are easily missed, deleted, etc.</p>
+<p><a href="http://nonfiction.ca/">We've</a> often gotten an entire directory of web files from other company and have been missing .htaccess files - having an entire directory that's effectively invisible to many FTP clients (and servers) and needs CMS support will be annoying.</p>
+<p>Why not just:</p>
+<p>GET /well-known/host-meta</p>
+<p>FTP clients/servers won't hate it, it'll be much easier to get CMS systems to work with it and they won't get missed when an entire directory is getting moved/zipped/etc.</p>
+<p>Isn't that just simpler?</p>

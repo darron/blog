@@ -1,0 +1,18 @@
+[presentations]
+  Name = "Presentations"
+  URL = "/presentations/"
+[twitter]
+  Name = "Twitter"
+  URL = "https://twitter.com/darron"
+[github]
+  Name = "Github"
+  URL = "https://github.com/darron"
+[resume]
+  Name = "Resume"
+  URL = "https://darron.froese.org/resume/"
+[LinkedIn]
+  Name = "LinkedIn"
+  URL = "https://www.linkedin.com/in/darronfroese/"
+[pgpkey]
+  Name = "PGP Key"
+  URL = "/pgp-key/"

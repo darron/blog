@@ -1,6 +1,0 @@
----
-layout: post
-title: notify.io is very interesting...
-published: true
----
-In about 30 minutes I was able to get a website I maintain notifying me when certain things happen using a single line of Ruby code:<p />res = Net::HTTP.post_form(URI.parse(NOTIFY_URL), {&#39;text&#39;=&gt;&#39;Somebody is looking at that page.&#39;, &#39;link&#39;=&gt;&#39;<a href="http://example.net">http://example.net</a>&#39;, &#39;title&#39;=&gt;&#39;Website&#39;, &#39;api_key&#39;=&gt;NOTIFY_API_KEY})<p /> Very cool - I&#39;m going to add this to a few other sites where it makes sense. I&#39;ve always wanted Growl notifications when certain things happen on sites I manage - this is the best way I&#39;ve seen to make it happen.
