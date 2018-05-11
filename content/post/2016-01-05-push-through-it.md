@@ -16,7 +16,7 @@ I didn't want to re-architect the Ruby version - I also didn't want to deal with
 
 I created a private repo in my own account at Github and started hacking on Thursday night. After a cross country flight on Friday and some free time over the weekend I had binaries that were close to the same level of functionality as the Ruby version. I was very excited.
 
-Some background might help here. During my almost [2 decades](https://darron.froese.org/resume/) working with computers, I had worked with all sorts of different technologies and written code in many different languages - but I am not a developer. I'm much closer to a sysadmin / ops guy and I don't have any formal CS training. I studied theology and philosophy at school but the web ended up being my true calling.
+Some background might help here. During my almost [2 decades](https://www.froese.org/resume/) working with computers, I had worked with all sorts of different technologies and written code in many different languages - but I am not a developer. I'm much closer to a sysadmin / ops guy and I don't have any formal CS training. I studied theology and philosophy at school but the web ended up being my true calling.
 
 When trying out a new programming language, I would sometimes buy a book, start reading and then try to "do it the right way". Gotta have tests! And those tests need to be mocked properly so that you can test without network access. And you need to make sure to write it in the style that the language is known for.
 
