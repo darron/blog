@@ -3,6 +3,8 @@ layout: page
 title: Presentations
 ---
 
+May 2018 - [Remote Work for Technology Workers](/2018/05/29/remote-work-for-technology-workers/)
+
 September 2016 - [Running Consul at scale - Service discovery in the cloud](/2016/09/21/velocity-running-consul-at-scale/)
 
 April 2016 - [Running Consul at Scale - Journey from RFC to Production](/2016/04/08/srecon-running-consul-at-scale/)
