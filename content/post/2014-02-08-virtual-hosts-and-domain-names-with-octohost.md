@@ -12,7 +12,7 @@ When we deployed this [octohost](https://www.octohost.io), we pointed a [wildcar
 
 Every time we push a new container, the octohost knows the name of the git repository and tells [Hipache](https://github.com/dotcloud/hipache) to direct all requests for "name-of-git-repo.octohost.io" to that container.
 
-You can also add additional domain name records into a CNAME file inside the repository. [Here's an example](https://github.com/octohost/virtual-host-example) with 2 octohost.io domain records and a single froese.org domain record. Please note, I had to [setup the froese.org record manually](http://shared.froese.org/2014/0208092111iuswv.jpg) - because of the wildcard, the others are automatic.
+You can also add additional domain name records into a CNAME file inside the repository. [Here's an example](https://github.com/octohost/virtual-host-example) with 2 octohost.io domain records and a single froese.org domain record. Please note, I had to [setup the froese.org record manually](/images/2014/0208092111iuswv.jpg) - because of the wildcard, the others are automatic.
 
 Watch what happens when we push to the octohost:
 

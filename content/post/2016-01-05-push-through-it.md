@@ -6,7 +6,7 @@ title: Push through it.
 url: /2016/01/05/push-through-it/
 ---
 
-<img src="/public/images/80.jpg" align="right" width="400" />
+<img src="/images/80.jpg" align="right" width="400" />
 
 80 days ago, I decided that I would put real effort into learning to program in [Go](https://golang.org/).
 

@@ -24,7 +24,7 @@ Here's a quick demo of how it works using the Consul watch. It shows how removin
 
 We can see a few things from the graphs:
 
-<img src="/public/images/kvexpress-demo.jpg" />
+<img src="/images/kvexpress-demo.jpg" />
 
 1. The files on all 1188 nodes are updated quite quickly - most of them under 300 milliseconds.
 2. There's one node that takes between 4 and 5 seconds consistently - I think it's an overloaded logging node.
