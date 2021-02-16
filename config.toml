@@ -1,0 +1,89 @@
+baseurl = "https://blog.froese.org/"
+languageCode = "en-us"
+title = "darron froese"
+theme = "blackburn"
+author = "Darron Froese"
+copyright = "&copy; 2021. All rights reserved."
+canonifyurls = true
+paginate = 10
+
+[indexes]
+  tag = "tags"
+  topic = "topics"
+
+[params]
+  # Shown in the home page
+  subtitle = "System administration, tricks and tips from an old school web-hacker."
+  brand = "darron froese"
+  googleAnalytics = "UA-12346486-4"
+  # disqus = "Your Disqus shortname"
+  # CSS name for highlight.js
+  highlightjs = "androidstudio"
+  dateFormat = "02 Jan 2006"
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 1
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "Posts"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 2
+    identifier = "post"
+    url = "/post/"
+  # [[menu.main]]
+  #   name = "About"
+  #   pre = "<i class='fa fa-user fa-fw'></i>"
+  #   weight = 3
+  #   identifier = "about"
+  #   url = "/about/"
+  # [[menu.main]]
+  #   name = "Contact"
+  #   pre = "<i class='fa fa-phone fa-fw'></i>"
+  #   weight = 4
+  #   url = "/contact/"
+  [[menu.main]]
+    name = "PGP Key"
+    pre = ""
+    weight = 5
+    url = "/pgp-key/"
+  [[menu.main]]
+    name = "Resume"
+    pre = ""
+    weight = 6
+    url = "https://darron.froese.org/resume/"
+
+[social]
+  # Link your social networking accouns to the side menu
+  # by entering your username or ID.
+  twitter="darron"
+  # gnusocial="*"
+  # facebook="*"
+  # weibo="*"
+  # tumblr="*"
+  instagram="darron"
+  # flickr="*"
+  # photo500px="*"
+  # pinterest="*"
+  # youtube="*"
+  # vimeo="*"
+  # vine="*"
+  # slideshare="*"
+  linkedin="darronfroese"
+  # xing="*"
+  # reddit="*"
+  # hackernews="*"
+  github="darron"
+  # gitlab="*"
+  # bitbucket="*"
+  # stackoverflow="*"
+  # serverfault="*"
+  # steam="*"
+  # mobygames="*"
+  # lastfm="*"
+  # discogs="*"
+  keybase="darron"
