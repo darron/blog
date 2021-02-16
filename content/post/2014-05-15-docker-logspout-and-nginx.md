@@ -59,7 +59,7 @@ crw-rw-rw- 1 root root   1, 5 May 15 00:31 zero
 
 So - [one simple change to our nginx config](https://github.com/octohost/harp-nginx/commit/530d75e47fbaf37ba9c88fc03e5792293df6087b) - and we have all of our nginx logs from a Docker instance aggregated in one place:
 
-<a href="http://shared.froese.org/2014/0514183414.jpg"><img src="http://shared.froese.org/2014/0514183414small.jpg"></a>
+<a href="/images/2014/0514183414.jpg"><img src="/images/2014/0514183414small.jpg"></a>
 
 This works with [Apache](https://github.com/octohost/wordpress/commit/f21c39d123e6aedce91b3f9ac9988ad04592cf59) too - should work with almost anything.
 

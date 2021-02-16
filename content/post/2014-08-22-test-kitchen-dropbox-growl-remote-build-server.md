@@ -26,7 +26,7 @@ You may not always working on your most powerful machine, or you're doing other 
 
 1. A cookbook to test using TestKitchen.
 2. [Dropbox](https://www.dropbox.com/) installed and working on both machines. (This helps with #1 above.)
-3. [Growl](http://growl.info/) installed on both machines. Make sure to enable [forwarded notifications](http://shared.froese.org/2014/fbys4-10-09.jpg) and enter passwords where needed. (This helps with #3 above.)
+3. [Growl](http://growl.info/) installed on both machines. Make sure to enable [forwarded notifications](/images/2014/fbys4-10-09.jpg) and enter passwords where needed. (This helps with #3 above.)
 4. [Growlnotify](http://growl.cachefly.net/GrowlNotify-2.1.zip) installed on the build machine - can also be installed from brew: `brew cask install growlnotify`
 5. Guard and Growl gems - [here's an example Gemfile](https://github.com/darron/skeleton-cookbook/blob/master/Gemfile#L13-L18). (This helps with #2 above.)
 6. A Guardfile with Growl notification enabled - [here's an example Guardfile](https://github.com/darron/skeleton-cookbook/blob/master/Guardfile)
@@ -122,7 +122,7 @@ crawler-ubuntu-1404  Vagrant  ChefZero     Created
 
 Once `kitchen create` is complete - if you've setup Dropbox and Growl correctly - you should get a notification on your screen. Here's the notifications I received:
 
-<img src="http://shared.froese.org/2014/6fs0p-11-47.jpg" border="0" />
+<img src="/images/2014/6fs0p-11-47.jpg" border="0" />
 
 In my case, Guard ran some syntax/lint tests, Rspec tests, and then got all of the integration platforms and suites ready to go.
 
@@ -134,11 +134,11 @@ Very quickly (a couple of seconds in my case), Dropbox will send your file to th
 
 Once that's complete, you should get a notification on your screen - this is what I see:
 
-<img src="http://shared.froese.org/2014/ip48n-12-01.jpg" border="0" />
+<img src="/images/2014/ip48n-12-01.jpg" border="0" />
 
 If you're working on some Chefspec tests, this may be what you'd see:
 
-<img src="http://shared.froese.org/2014/xveku-12-03.jpg" border="0" />
+<img src="/images/2014/xveku-12-03.jpg" border="0" />
 
 ## To sum it up - this allows you to:
 

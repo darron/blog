@@ -14,7 +14,7 @@ Watching `top` for a moment, we noticed that some Apache processes were getting 
 
 The first thing we did was set some reasonable limits on how large the Apache + mod\_php processes could get - `memory_limit 256MB`. Since the Apache error logs are all aggregated with [Papertrail](https://papertrailapp.com/), we setup an alert that sent a message to the nonfiction [Slack](https://slack.com/) room if any processes were killed. Those alerts look like this:
 
-<img src="http://shared.froese.org/2014/ronpn-18-15.jpg" />
+<img src="/images/2014/ronpn-18-15.jpg" />
 
 Once that was setup, we very quickly found that a customer on a legacy website had deleted some very important web pages, when those pages were missing some *very bad things* could happen with the database. This had been mitigated in a subsequent software release but they hadn't been patched. Those pages were restored and they were patched. The problem was solved - at least the immediate problem.
 
@@ -22,19 +22,19 @@ Keeping an eye on `top`, there were still websites that were using up more memor
 
 We were grabbing the memory size of the Apache processes and sending them to Datadog - the graphs that were generated from that data look like this:
 
-<img src="http://shared.froese.org/2014/7xfil-15-30.jpg" />
+<img src="/images/2014/7xfil-15-30.jpg" />
 
 Now we had a better - albeit fairly low resolution - window into how large the Apache processes were getting.
 
 Over the last week, we have had a good amount of data to make some changes to how Apache is configured and then measure how it responds and reacts. Here's how the entire week's memory usage looked like:
 
-<img src="http://shared.froese.org/2014/inoci-15-13.jpg" />
+<img src="/images/2014/inoci-15-13.jpg" />
 
 Using Datadog's built in [process monitoring function](http://docs.datadoghq.com/integrations/process/) and this graph, we gained some insight into how things were acting overall, but not enough detailed information into exactly which sites were the memory hogs.
 
 In order to close that gap, I wrote [another small Ruby script](https://gist.github.com/darron/dfcaa505ae078a76a08f) and between `ps` and [`/server-status`](http://httpd.apache.org/docs/2.2/mod/mod_status.html) we had all the information we needed:
 
-<img src="http://shared.froese.org/2014/k1gis-19-41.jpg" />
+<img src="/images/2014/k1gis-19-41.jpg" />
 
 We can now see which sites are using the most memory in the heatmap and the nonfiction team will be able to take a look at those sites and adjust as necessary. It's not a perfect solution, but it's a great way to get more visibility into exactly what's happening - and it only look a couple of hours in total.
 

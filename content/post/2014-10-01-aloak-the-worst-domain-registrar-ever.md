@@ -16,7 +16,7 @@ Late last year, I started to move 4 domain names off of Aloak - a registrar I ha
 
 3. Their SSL certificate had actually expired in 2010.
 
-<img src="http://shared.froese.org/2014/f2ui5-22-45.jpg" border="0" />
+<img src="/images/2014/f2ui5-22-45.jpg" border="0" />
 
 After a couple of months, I had to abandon the effort - I stopped emailing them after nothing was done.
 
@@ -28,11 +28,11 @@ As I had previously experienced, the domain name changes that had been requested
 
 We kept trying all throughout July, August and now through September, and the domain name servers haven't been changed all this time. Every so often we get a response like this:
 
-<img src="http://shared.froese.org/2014/c4lwb-22-56.jpg" border="0" />
+<img src="/images/2014/c4lwb-22-56.jpg" border="0" />
 
 Today - we got this response:
 
-<img src="http://shared.froese.org/2014/7b6yy-22-59.jpg" border="0" />
+<img src="/images/2014/7b6yy-22-59.jpg" border="0" />
 
 Over 3 months to change some domain name records - and it still hasn't been done.
 

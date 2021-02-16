@@ -27,11 +27,11 @@ Now, [create an Iron.io Project](https://hud.iron.io/projects/new) - I've called
 
 After it's created, click on the "Worker" button:
 
-<img src="http://shared.froese.org/2015/qtp7r-19-57.jpg" border="0" style="border:1px solid black;" />
+<img src="/images/2015/qtp7r-19-57.jpg" border="0" style="border:1px solid black;" />
 
 Grab the iron.json credentials, so the gem knows how to upload your code:
 
-<img src="http://shared.froese.org/2015/eh88s-20-09.jpg" border="0" style="border:1px solid black;" />
+<img src="/images/2015/eh88s-20-09.jpg" border="0" style="border:1px solid black;" />
 
 Let's grab some code to create our worker:
 
@@ -72,19 +72,19 @@ Pay attention to the output from this command - it should look something like th
 
 Follow the link that's provided in the output - you should see the webhook URL:
 
-<img src="http://shared.froese.org/2015/1jied-20-16.jpg" border="0" />
+<img src="/images/2015/1jied-20-16.jpg" border="0" />
 
 Click the field to show the URL, copy that URL and then paste it into the Gitlab webhooks area:
 
-<img src="http://shared.froese.org/2015/b4fbi-20-18.jpg" border="0" style="border:1px solid black;" />
+<img src="/images/2015/b4fbi-20-18.jpg" border="0" style="border:1px solid black;" />
 
 Click "Add Web Hook" and if it works as planned - you'll have a "Test Hook" button to try out:
 
-<img src="http://shared.froese.org/2015/ek4a6-20-22.jpg" border="0" />
+<img src="/images/2015/ek4a6-20-22.jpg" border="0" />
 
 This is what I see in my Datadog Events stream now:
 
-<img src="http://shared.froese.org/2015/840k9-20-25.jpg" border="0" style="border:1px solid black;" />
+<img src="/images/2015/840k9-20-25.jpg" border="0" style="border:1px solid black;" />
 
 This is a simple way to get commit notifications into Datadog, the other types of web hooks aren't currently covered, but [the code is simple enough to be adjusted](https://github.com/darron/iron_worker_examples/tree/master/ruby_ng/gitlab_to_datadog_webhook_worker).
 
