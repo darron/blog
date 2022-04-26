@@ -87,3 +87,4 @@ paginate = 10
   # lastfm="*"
   # discogs="*"
   keybase="darron"
+  mastodon="https://mastodon.cloud/@darron"
